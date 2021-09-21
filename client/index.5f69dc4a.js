@@ -1,2 +1,0 @@
-import{S as s,i as a,s as e,a as t,e as o,t as c,d as n,c as r,b as h,f as l,g as m,h as p,n as i}from"./chunk.78d3fd54.js";function u(s){var a,e,u;return{c(){a=t(),e=o("p"),u=c("Homepage"),this.h()},l(s){a=n(s,"\n\n"),e=r(s,"P",{class:!0},!1);var t=h(e);u=n(t,"Homepage"),t.forEach(l),this.h()},h(){document.title="Homepage",e.className="svelte-1kk9opm"},m(s,t){m(s,a,t),m(s,e,t),p(e,u)},p:i,i:i,o:i,d(s){s&&(l(a),l(e))}}}export default class extends s{constructor(s){super(),a(this,s,null,u,e,[])}}
-//# sourceMappingURL=index.5f69dc4a.js.map
