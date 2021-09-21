@@ -1,1 +1,0 @@
-# Andrei Konstantinov personal page
