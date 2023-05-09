@@ -1,0 +1,48 @@
+- title: "Алгоритм и программная реализация метода фиксации уровня для решения задачи полуавтоматической сегментации медицинских изображений"
+  translation: "Algorithm and software implementation of the level set method for solving the problem of semi-automatic segmentation of medical images"
+  year: 2018
+  degree: Bachelor degree
+  status: defended
+  lang: ru
+  speciality: "01.03.02 – Applied Mathematics and Informatics"
+  subspeciality: "01.03.02_02 – System programming"
+  tags:
+    - image segmentation
+    - transfer equation
+    - medical imaging
+    - semi-automatic segmentation
+    - downsampling
+
+- title: "Разработка и исследование новых алгоритмов глубокого градиентного бустинга для решения задач большой размерности"
+  translation: "Research and development of new Deep Gradient Boosting algorithms for solving high-dimensional problems"
+  year: 2020
+  degree: Masters degree
+  status: defended
+  lang: ru
+  speciality: "01.04.02 – Applied Mathematics and Informatics"
+  subspeciality: "01.04.02_02 – Mathematical Methods for Data Analysis and Visualization"
+  tags:
+    - machine learning
+    - regression
+    - classification
+    - decision trees
+    - gradient boosting machine
+    - deep learning
+    - deep forest
+  annotation: |
+    This paper is devoted to development of new machine learning algorithms for regression and classification tasks based on decision trees.
+    The research set the following goals:
+      1. Research of decision tree-based machine learning approaches.
+      2. Development of new machine learning algorithms.
+      3. Analysis of developed algorithms.
+      4. Comparison with other decision tree-based machine learning algorithms.
+    The analysis of currently available decision tree-based algorithms has been made. Also, the applicability of Deep Forest to the regression task has been revised.
+    The study resulted in two brand new machine learning algorithms: deep gradient boosting and adaptive gradient boosting ensemble; and the modification of decision tree-based gradient boosting.
+    The numerical experiments made during the research, and comparison with other decision tree-based algorithms, including Random Forest, XGBoost and CatBoost, show that developed methods can be used to construct more precise models.
+
+- title: "TBD"
+  translation: "TBD"
+  degree: PHD
+  status: in progress
+  lang: ru
+

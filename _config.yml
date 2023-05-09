@@ -1,5 +1,20 @@
-name: Andrei Konstantinov personal page
+title: "@andruekonst"
 # description: 
 url: "http://andruekonst.ru"
-markdown: GFM
+markdown: kramdown
+theme: minima
+author:
+  name: Andrei V. Konstantinov
+  email: konstantinov_av@spbstu.ru
+minima:
+  skin: auto
+  social_links:
+    - { platform: github, user_url: "https://github.com/andruekonst" }
+    - { platform: "google_scholar", user_url: "https://scholar.google.com/citations?user=KyAhh6QAAAAJ&hl=ru" }
+    - { platform: telegram, user_url: "https://t.me/andruekonst" }
+header_pages:
+  - index.html
+  - publications.md
+  - about.md
+show_excerpts: true
 

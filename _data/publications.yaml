@@ -1,0 +1,498 @@
+- title: Interpretable machine learning with an ensemble of gradient boosting machines
+  doi: https://doi.org/10.1016/j.knosys.2021.106993
+  repo: https://github.com/andruekonst/egbm-gam
+  year: 2021
+  kind: journal
+  bibtex: |
+    @article{konstantinov2021interpretable,
+      title={Interpretable machine learning with an ensemble of gradient boosting machines},
+      author={Konstantinov, Andrei V and Utkin, Lev V},
+      journal={Knowledge-Based Systems},
+      volume={222},
+      pages={106993},
+      year={2021},
+      publisher={Elsevier}
+    }
+- title: A weighted random survival forest
+  doi: https://doi.org/10.1016/j.knosys.2019.04.015
+  year: 2019
+  kind: journal
+  bibtex: |
+    @article{utkin2019weighted,
+      title={A weighted random survival forest},
+      author={Utkin, Lev V and Konstantinov, Andrei V and Chukanov, Viacheslav S and Kots, Mikhail V and Ryabinin, Mikhail A and Meldo, Anna A},
+      journal={Knowledge-Based Systems},
+      volume={177},
+      pages={136--144},
+      year={2019},
+      publisher={Elsevier}
+    }
+- title: Counterfactual explanation of machine learning survival models
+  doi: https://doi.org/10.15388/21-INFOR468
+  year: 2021
+  kind: journal
+  bibtex: |
+    @article{kovalev2021counterfactual,
+      title={Counterfactual explanation of machine learning survival models},
+      author={Kovalev, Maxim and Utkin, Lev and Coolen, Frank and Konstantinov, Andrei},
+      journal={Informatica},
+      volume={32},
+      number={4},
+      pages={817--847},
+      year={2021},
+      publisher={Vilnius University}
+    }
+- title: A Deep Forest Improvement by Using Weighted Schemes
+  doi: http://dx.doi.org/10.23919/FRUCT.2019.8711886
+  year: 2019
+  kind: conference
+  bibtex: >
+    @inproceedings{utkin2019deep,
+      title={A deep forest improvement by using weighted schemes},
+      author={Utkin, Lev and Konstantinov, Andrei and Meldo, Anna and Ryabinin, Mikhail and Chukanov, Viacheslav},
+      booktitle={2019 24th Conference of Open Innovations Association (FRUCT)},
+      pages={451--456},
+      year={2019},
+      organization={IEEE}
+    }
+- title: Deep Forest as a framework for a new class of machine-learning models
+  doi: http://dx.doi.org/10.1093/nsr/nwy151
+  year: 2019
+  kind: journal
+  bibtex: >
+    @article{utkin2019deep,
+      title={Deep Forest as a framework for a new class of machine-learning models},
+      author={Utkin, Lev V and Meldo, Anna A and Konstantinov, Andrei V},
+      journal={National Science Review},
+      volume={6},
+      number={2},
+      pages={186--187},
+      year={2019},
+      publisher={Oxford University Press}
+    }
+- title: Attention-based random forest and contamination model
+  doi: https://doi.org/10.1016/j.neunet.2022.07.029
+  year: 2022
+  kind: journal
+  bibtex: >
+    @article{utkin2022attention,
+      title={Attention-based random forest and contamination model},
+      author={Utkin, Lev V and Konstantinov, Andrei V},
+      journal={Neural Networks},
+      volume={154},
+      pages={346--359},
+      year={2022},
+      publisher={Elsevier}
+    }
+- title: Ensembles of random SHAPs
+  doi: https://doi.org/10.3390/a15110431
+  year: 2022
+  kind: journal
+  bibtex: >
+    @article{utkin2022ensembles,
+      title={Ensembles of random SHAPs},
+      author={Utkin, Lev and Konstantinov, Andrei},
+      journal={Algorithms},
+      volume={15},
+      number={11},
+      pages={431},
+      year={2022},
+      publisher={MDPI}
+    }
+- title: A new adaptive weighted deep forest and its modifications
+  doi: https://doi.org/10.1142/S0219622020500236
+  year: 2020
+  kind: journal
+  bibtex: >
+    @article{utkin2020new,
+      title={A new adaptive weighted deep forest and its modifications},
+      author={Utkin, Lev V and Konstantinov, Andrei V and Chukanov, Viacheslav S and Meldo, Anna A},
+      journal={International Journal of Information Technology \& Decision Making},
+      volume={19},
+      number={04},
+      pages={963--986},
+      year={2020},
+      publisher={World Scientific}
+    }
+- title: "SurvNAM: The machine learning survival model explanation"
+  doi: https://doi.org/10.1016/j.neunet.2021.12.015
+  year: 2022
+  kind: journal
+  bibtex: >
+    @article{utkin2022survnam,
+      title={SurvNAM: The machine learning survival model explanation},
+      author={Utkin, Lev V and Satyukov, Egor D and Konstantinov, Andrei V},
+      journal={Neural Networks},
+      volume={147},
+      pages={81--102},
+      year={2022},
+      publisher={Elsevier}
+    }
+- title: "AGBoost: Attention-based modification of gradient boosting machine"
+  doi: https://doi.org/10.23919/FRUCT54823.2022.9770928
+  year: 2022
+  kind: conference
+  bibtex: >
+    @inproceedings{konstantinov2022agboost,
+      title={AGBoost: Attention-based modification of gradient boosting machine},
+      author={Konstantinov, Andrei and Utkin, Lev and Kirpichenko, Stanislav},
+      booktitle={2022 31st Conference of Open Innovations Association (FRUCT)},
+      pages={96--101},
+      year={2022},
+      organization={IEEE}
+    }
+- title: Gradient Boosting Machine with Partially Randomized Decision Trees
+  doi: https://doi.org/10.23919/FRUCT50888.2021.9347631
+  year: 2021
+  kind: conference
+  bibtex: >
+    @inproceedings{konstantinov2021gradient,
+      title={Gradient boosting machine with partially randomized decision trees},
+      author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir},
+      booktitle={2021 28th Conference of Open Innovations Association (FRUCT)},
+      pages={167--173},
+      year={2021},
+      organization={IEEE}
+    }
+- title: A Generalized Stacking for Implementing Ensembles of Gradient Boosting Machines
+  doi: https://doi.org/10.1007/978-3-030-67892-0_1
+  year: 2021
+  kind: journal
+  bibtex: >
+    @article{konstantinov2021generalized,
+      title={A generalized stacking for implementing ensembles of gradient boosting machines},
+      author={Konstantinov, Andrei V and Utkin, Lev V},
+      journal={Cyber-Physical Systems: Digital Technologies and Applications},
+      pages={3--16},
+      year={2021},
+      publisher={Springer}
+    }
+- title: Multi-attention multiple instance learning
+  doi: https://doi.org/10.1007/s00521-022-07259-5
+  year: 2022
+  kind: journal
+  bibtex: >
+    @article{konstantinov2022multi,
+      title={Multi-attention multiple instance learning},
+      author={Konstantinov, Andrei V and Utkin, Lev V},
+      journal={Neural Computing and Applications},
+      volume={34},
+      number={16},
+      pages={14029--14051},
+      year={2022},
+      publisher={Springer}
+    }
+- title: An adaptive weighted deep forest classifier
+  year: 2019
+  kind: preprint
+  arxiv: https://arxiv.org/abs/1901.01334
+- title: Semi-supervised Learning for Medical Image Segmentation
+  doi: https://doi.org/10.1007/978-981-33-6632-9_21
+  year: 2021
+  kind: conference
+  bibtex: >
+    @inproceedings{kots2021semi,
+      title={Semi-supervised Learning for Medical Image Segmentation},
+      author={Kots, Mikhail and Pozigun, Mikhail and Konstantinov, Andrei and Chukanov, Viacheslav},
+      booktitle={Proceedings of International Scientific Conference on Telecommunications, Computing and Control: TELECCON 2019},
+      pages={245--253},
+      year={2021},
+      organization={Springer}
+    }
+- title: Attention and self-attention in random forests
+  arxiv: https://arxiv.org/abs/2207.04293
+  year: 2022
+  kind: preprint
+- title: An Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data
+  arxiv: https://arxiv.org/abs/2106.09111
+  year: 2021
+  kind: preprint
+- title: Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions
+  doi: https://doi.org/10.23919/FRUCT50888.2021.9347612
+  year: 2021
+  kind: conference
+  bibtex: >
+    @inproceedings{utkin2021combining,
+      title={Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions},
+      author={Utkin, Lev and Drobintsev, Pavel and Kovalev, Maxim and Konstantinov, Andrei},
+      booktitle={2021 28th Conference of Open Innovations Association (FRUCT)},
+      pages={489--494},
+      year={2021},
+      organization={IEEE}
+    }
+- title: The Deep Survival Forest and Elastic-Net-Cox Cascade Models as Extensions of the Deep Forest
+  doi: https://doi.org/10.1007/978-981-33-6632-9_18
+  year: 2021
+  kind: journal
+  bibtex: >
+    @inproceedings{utkin2021deep,
+      title={The Deep Survival Forest and Elastic-Net-Cox Cascade Models as Extensions of the Deep Forest},
+      author={Utkin, Lev and Konstantinov, Andrei and Meldo, Anna and Sokolova, Victoria and Coolen, Frank},
+      booktitle={Proceedings of International Scientific Conference on Telecommunications, Computing and Control: TELECCON 2019},
+      pages={205--217},
+      year={2021},
+      organization={Springer}
+    }
+- title: Heterogeneous Treatment Effect with Trained Kernels of the Nadaraya–Watson Regression
+  year: 2023
+  doi: https://doi.org/10.3390/a16050226
+  kind: journal
+  bibtex: >
+    @article{konstantinov2023heterogeneous,
+      title={Heterogeneous Treatment Effect with Trained Kernels of the Nadaraya--Watson Regression},
+      author={Konstantinov, Andrei and Kirpichenko, Stanislav and Utkin, Lev},
+      journal={Algorithms},
+      volume={16},
+      number={5},
+      pages={226},
+      year={2023},
+      publisher={MDPI}
+    }
+- title: Attention-like feature explanation for tabular data
+  doi: https://doi.org/10.1007/s41060-022-00351-y
+  year: 2022
+  kind: journal
+  bibtex: >
+    @article{konstantinov2022attention,
+      title={Attention-like feature explanation for tabular data},
+      author={Konstantinov, Andrei V and Utkin, Lev V},
+      journal={International Journal of Data Science and Analytics},
+      pages={1--26},
+      year={2022},
+      publisher={Springer}
+    }
+- title: An Extension of the Neural Additive Model for Uncertainty Explanation of Machine Learning Survival Models
+  doi: https://doi.org/10.1007/978-3-030-95116-0_1
+  year: 2022
+  kind: journal
+  bibtex: >
+    @incollection{utkin2022extension,
+      title={An Extension of the Neural Additive Model for Uncertainty Explanation of Machine Learning Survival Models},
+      author={Utkin, Lev and Konstantinov, Andrei},
+      booktitle={Cyber-Physical Systems: Intelligent Models and Algorithms},
+      pages={3--13},
+      year={2022},
+      publisher={Springer}
+    }
+- title: Deep Gradient Boosting For Regression Problems
+  doi: https://doi.org/10.18721/JCSTCS.14301
+  year: 2021
+  kind: journal
+  bibtex: >
+    @article{konstantinov2021deep,
+      title={Deep gradient boosting for regression problems},
+      author={Konstantinov, Andrei Vladimirovich},
+      journal={Информатика, телекоммуникации и управление},
+      volume={14},
+      number={3},
+      pages={7--19},
+      year={2021},
+      publisher={Федеральное государственное автономное образовательное учреждение высшего~…}
+    }
+- title: Estimation of Personalized Heterogeneous Treatment Effects Using Concatenation and Augmentation of Feature Vectors
+  doi: http://dx.doi.org/10.1142/S0218213020500050
+  year: 2020
+  kind: journal
+  bibtex: >
+    @article{utkin2020estimation,
+      title={Estimation of Personalized Heterogeneous Treatment Effects Using Concatenation and Augmentation of Feature Vectors},
+      author={Utkin, Lev V and Kots, Mikhail V and Chukanov, Viacheslav S and Konstantinov, Andrei V and Meldo, Anna A},
+      journal={International Journal on Artificial Intelligence Tools},
+      volume={29},
+      number={05},
+      pages={2050005},
+      year={2020},
+      publisher={World Scientific}
+    }
+- title: "LARF: Two-Level Attention-Based Random Forests with a Mixture of Contamination Models"
+  year: 2023
+  doi: https://doi.org/10.3390/informatics10020040
+  kind: journal
+  bibtex: >
+    @inproceedings{konstantinov2023larf,
+      title={LARF: Two-Level Attention-Based Random Forests with a Mixture of Contamination Models},
+      author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir},
+      booktitle={Informatics},
+      volume={10},
+      number={2},
+      pages={40},
+      year={2023},
+      organization={MDPI}
+    }
+- title: "Neural Attention Forests: Transformer-Based Forest Improvement"
+  year: 2023
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2304.05980
+- title: Interpretable Ensembles of Hyper-Rectangles as Base Models
+  year: 2023
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2303.08625
+- title: Multiple Instance Learning with Trainable Decision Tree Ensembles
+  year: 2023
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2302.06601
+- title: Modifications of SHAP for Local Explanation of Function-Valued Predictions Using the Divergence Measures
+  doi: https://doi.org/10.1007/978-3-031-20875-1_6
+  year: 2023
+  kind: conference
+  bibtex: >
+    @incollection{utkin2023modifications,
+      title={Modifications of SHAP for Local Explanation of Function-Valued Predictions Using the Divergence Measures},
+      author={Utkin, Lev and Petrov, Artem and Konstantinov, Andrei},
+      booktitle={Cyber-Physical Systems and Control II},
+      pages={52--64},
+      year={2023},
+      publisher={Springer}
+    }
+- title: Robust Models of Distance Metric Learning by Interval-Valued Training Data
+  doi: https://doi.org/10.1007/978-3-031-20875-1_7
+  year: 2023
+  kind: conference
+  bibtex: >
+    @incollection{utkin2023robust,
+      title={Robust Models of Distance Metric Learning by Interval-Valued Training Data},
+      author={Utkin, Lev and Konstantinov, Andrei and Muliukha, Vladimir and Politaeva, Natalia},
+      booktitle={Cyber-Physical Systems and Control II},
+      pages={65--77},
+      year={2023},
+      publisher={Springer}
+    }
+- title: Improved Anomaly Detection by Using the Attention-Based Isolation Forest
+  doi: https://doi.org/10.3390/a16010019
+  year: 2022
+  kind: journal
+  bibtex: >
+    @article{utkin2022improved,
+      title={Improved Anomaly Detection by Using the Attention-Based Isolation Forest},
+      author={Utkin, Lev and Ageev, Andrey and Konstantinov, Andrei and Muliukha, Vladimir},
+      journal={Algorithms},
+      volume={16},
+      number={1},
+      pages={19},
+      year={2022},
+      publisher={MDPI}
+    }
+- title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
+  year: 2022
+  doi: https://arxiv.org/abs/2211.10793
+  kind: preprint
+- title: An Approach for the Robust Machine Learning Explanation Based on Imprecise Statistical Models
+  doi: https://doi.org/10.1007/978-3-030-93872-7_11
+  year: 2022
+  kind: conference
+  bibtex: >
+    @inproceedings{utkin2022approach,
+      title={An Approach for the Robust Machine Learning Explanation Based on Imprecise Statistical Models},
+      author={Utkin, Lev and Zaborovsky, Vladimir and Muliukha, Vladimir and Konstantinov, Andrei},
+      booktitle={Algorithms and Solutions Based on Computer Technology: 5th Scientific International Online Conference Algorithms and Solutions based on Computer Technology (ASBC 2021)},
+      pages={127--135},
+      year={2022},
+      organization={Springer}
+    }
+- title: Multiple Instance Learning through Explanation by Using a Histopathology Example
+  doi: https://doi.org/10.23919/FRUCT54823.2022.9770901
+  year: 2022
+  kind: conference
+  bibtex: >
+    @inproceedings{konstantinov2022multiple,
+      title={Multiple Instance Learning through Explanation by Using a Histopathology Example},
+      author={Konstantinov, Andrei and Utkin, Lev},
+      booktitle={2022 31st Conference of Open Innovations Association (FRUCT)},
+      pages={102--108},
+      year={2022},
+      organization={IEEE}
+    }
+- title: Random Survival Forests Incorporated By The Nadaraya-Watson Regression
+  year: 2022
+  doi: https://doi.org/10.15622/ia.21.5.1
+  kind: journal
+  bibtex: >
+    @article{utkin2022random,
+      title={Random survival forests incorporated by the Nadaraya-Watson regression},
+      author={Utkin, Lev and Konstantinov, Andrei},
+      journal={Информатика и автоматизация},
+      volume={21},
+      number={5},
+      pages={851--880},
+      year={2022}
+    }
+- title: Random Forests with Attentive Nodes
+  doi: https://doi.org/10.1016/j.procs.2022.11.029
+  year: 2022
+  kind: conference
+  bibtex: >
+    @article{konstantinov2022random,
+      title={Random Forests with Attentive Nodes},
+      author={Konstantinov, Andrei V and Utkin, Lev V and Kirpichenko, Stanislav R and Kozlov, Boris V and Ageev, Andrey Y},
+      journal={Procedia Computer Science},
+      volume={212},
+      pages={454--463},
+      year={2022},
+      publisher={Elsevier}
+    }
+- title: Uncertainty Interpretation of the Machine Learning Survival Model Predictions
+  year: 2021
+  doi: https://doi.org/10.1109/ACCESS.2021.3108341
+  kind: journal
+  bibtex: >
+    @article{utkin2021uncertainty,
+      title={Uncertainty Interpretation of the Machine Learning Survival Model Predictions},
+      author={Utkin, Lev V and Zaborovsky, Vladimir S and Kovalev, Maxim S and Konstantinov, Andrei V and Politaeva, Natalia A and Lukashin, Alexey A},
+      journal={IEEE Access},
+      volume={9},
+      pages={120158--120175},
+      year={2021},
+      publisher={IEEE}
+    }
+- title: An Adaptive Weighted Deep Survival Forest
+  doi: https://doi.org/10.1109/SCM50615.2020.9198755
+  year: 2020
+  kind: journal
+  bibtex: >
+    @inproceedings{utkin2020adaptive,
+      title={An Adaptive Weighted Deep Survival Forest},
+      author={Utkin, Lev V and Konstantinov, Andrei and Lukashin, Aleksey A and Muliukha, Vladimir A},
+      booktitle={2020 XXIII International Conference on Soft Computing and Measurements (SCM)},
+      pages={198--201},
+      year={2020},
+      organization={IEEE}
+    }
+- title: "Адаптивный весовой глубокий лес выживаемости"
+  year: 2020
+  lang: "ru"
+  kind: conference
+  bibtex: |
+    @inproceedings{уткин2020адаптивный,
+      title={Адаптивный весовой глубокий лес выживаемости},
+      author={Уткин, ЛВ and Константинов, АВ and Лукашин, АА and Мулюха, ВА},
+      booktitle={Международная конференция по мягким вычислениям и измерениям},
+      volume={1},
+      pages={220--223},
+      year={2020},
+      organization={Федеральное государственное автономное образовательное учреждение высшего~…}
+    }
+- title: "Алгоритмы фиксации уровня и быстрого распространения контура для полуавтоматической сегментации медицинских изображений"
+  year: 2017
+  lang: "ru"
+  kind: conference
+  bibtex: |
+    @inproceedings{вердина2017алгоритмы,
+      title={Алгоритмы фиксации уровня и быстрого распространения контура для полуавтоматической сегментации медицинских изображений},
+      author={Вердина, МК and Константинов, АВ and Позигун, МВ and Чуканов, ВС},
+      booktitle={Неделя науки СПбПУ},
+      pages={78--81},
+      year={2017}
+    }
+- title: Сегментация трёхмерных медицинских изображений на основе алгоритмов классификации
+  year: 2018
+  lang: ru
+  kind: conference
+  bibtex: |
+    @inproceedings{константинов2018сегментация,
+      title={СЕГМЕНТАЦИЯ ТРЁХМЕРНЫХ МЕДИЦИНСКИХ ИЗОБРАЖЕНИЙ НА ОСНОВЕ АЛГОРИТМОВ КЛАССИФИКАЦИИ},
+      author={Константинов, АВ and Чуканов, ВС},
+      booktitle={Неделя науки СПбПУ},
+      pages={187--190},
+      year={2018}
+    }
+
