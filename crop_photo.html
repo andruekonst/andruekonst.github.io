@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Обрезка картинок под одно разрешение</title>
+
+        <!-- Bootstrap styles -->
+        <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/css/bootstrap-theme.min.css" integrity="sha384-6pzBo3FDv/PJ8r2KRkGHifhEocL+1X2rVCTTkUfGk7/0pbek5mMa1upzvWbrUbOZ" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.4.1/dist/js/bootstrap.min.js" integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.7.0.slim.min.js"></script>
+        <!-- End of Bootstrap styles -->
+    </head>
+    <body>
+        <div class="container">
+            <h1>Обрезка картинок под одно разрешение</h1>
+            <form>
+                <div class="form-group">
+                    <label for="image">Изображения:</label>
+                    <input multiple type="file" accept="image/*" name="image" id="file" class="form-control" onchange="loadFile(event)" style="">
+                </div>
+                <div class="form-group">
+                    <label for="crop_width">Ширина (width):</label>
+                    <input id="crop_width" name="crop_width" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="crop_height">Высота (height):</label>
+                    <input id="crop_height" name="crop_height" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <label for="output_ext">Выходное расширение:</label>
+                    <input id="output_ext" name="output_ext" value="png" class="form-control"/>
+                </div>
+                <div class="form-group">
+                    <input type="checkbox" id="auto_download" name="auto_download" checked/>
+                    <label label="auto_download">Скачивать автоматически</label>
+                </div>
+            </form>
+                <div class="form-group">
+                    <button onclick="getSizes()" class="btn btn-default">Поставить мин. размеры</button>
+                    <button onclick="cropAll()" class="btn btn-success">Обрезать</button>
+                </div>
+            <div class="results_parent_container" style="display: none;">
+                <h3>Кропнутые картинки</h3>
+                <ul class="results list-group"></ul>
+            </div>
+            <div>
+                <h3>Промежуточная информация:</h3>
+                <ul class="sizes list-group"></ul>
+                <p class="cont"></p>
+            </div>
+        </div>
+        <script>
+            var cWidth = document.querySelector("#crop_width");
+            var cHeight = document.querySelector("#crop_height");
+            var cExt = document.querySelector("#output_ext");
+            var resultsContainer = document.querySelector(".results");
+            var resultsParentContainer = document.querySelector(".results_parent_container");
+            var autoDownloadCheckbox = document.querySelector("#auto_download");
+
+            var loadFile = function(event) {
+                let nFiles = event.target.files.length;
+                for (let i = 0; i < event.target.files.length; i++) {
+                    let image = document.createElement('img');
+                    image.src = URL.createObjectURL(event.target.files[i]);
+                    image.id = "output";
+                    // image.width = "200";
+                    image.setAttribute('data-name', event.target.files[i].name);
+                    console.log(image.getAttribute('data-name'));
+
+                    let imageContainer = document.createElement('div');
+                    imageContainer.classList.add('image-container');
+                    imageContainer.setAttribute('data-name', event.target.files[i].name);
+                    imageContainer.appendChild(image);
+
+                    let imageName = document.createElement('p');
+                    imageName.innerText = event.target.files[i].name;
+                    imageContainer.appendChild(imageName);
+                    document.querySelector(".cont").appendChild(imageContainer);
+
+                    image.onload = function() {
+                        var li = document.createElement('li');
+                        var width = image.width;
+                        var height = image.height;
+                        li.innerText = imageName.innerText + ' : ' + width + ' x ' + height + ' px';
+                        li.classList.add('list-group-item');
+                        document.querySelector('.sizes').appendChild(li); 
+                        if (i == nFiles - 1) {
+                            setTimeout(function(){
+                                getSizes();
+                            }, 100)
+                        }
+                    }
+                }
+            };
+
+            var getSizes = function() {
+                console.log("Get sizes");
+                var imageContainers = document.querySelectorAll(".image-container");
+                cWidth.value = "";
+                cHeight.value = "";
+                for (let container of imageContainers) {
+                    let w = container.querySelector('img').width;
+                    let h = container.querySelector('img').height;
+                    if (cWidth.value == "" || cWidth.value > w) {
+                        cWidth.value = w;
+                    }
+                    if (cHeight.value == "" || cHeight.value > h) {
+                        cHeight.value = h;
+                    }
+                }
+            };
+
+            var cropAll = function() {
+                let targetWidth = cWidth.value;
+                let targetHeight = cHeight.value;
+
+                let imageContainers = document.querySelectorAll(".image-container");
+                let counter = 0;
+                resultsContainer.replaceChildren(); // remove previous results
+                for (let container of imageContainers) {
+                    let containerImg = container.querySelector('img');
+                    console.log('Previous dimensions:', containerImg.width, containerImg.height);
+                    let canvas = document.createElement('canvas');
+                    canvas.width = containerImg.width;
+                    canvas.height = containerImg.height;
+                    // scale the first canvas
+                    if (canvas.width < canvas.height) {
+                        canvas.height = Math.round(canvas.height * targetWidth / canvas.width);
+                        canvas.width = targetWidth;
+                    } else {
+                        canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
+                        canvas.height = targetHeight;
+                    }
+
+                    // container.appendChild(canvas);
+                    let ctx = canvas.getContext('2d');
+                    ctx.drawImage(containerImg, 0, 0, canvas.width, canvas.height);
+
+                    console.log('New dimensions:', canvas.width, canvas.height);
+                    let data = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
+                    // create the second canvas with corrected shape
+                    let scaledCanvas = document.createElement('canvas');
+                    scaledCanvas.width = targetWidth;
+                    scaledCanvas.height = targetHeight;
+                    scaledCanvas.getContext('2d').drawImage(canvas, 0, 0);
+
+                    document.body.appendChild(scaledCanvas);
+
+                    if (autoDownloadCheckbox.checked) {
+                        setTimeout(function(){
+                            // download image
+                            let originalName = container.getAttribute('data-name');
+                            let link = document.createElement('a');
+                            let ext = cExt.value;
+                            let newName = originalName + '_crop_' + targetWidth + 'x' + targetHeight + '.' + ext;
+                            link.download = newName;
+                            link.href = scaledCanvas.toDataURL("image/" + ext);
+                            link.click();
+                            link.innerText = newName;
+
+                            let li = document.createElement('li');
+                            li.classList.add('list-group-item');
+                            li.appendChild(link);
+                            resultsContainer.appendChild(li);
+                        }, 100 * counter + 1);
+                    }
+                    counter += 1;
+                }
+                resultsParentContainer.style.display = "block";
+            };
+        </script>
+    </body>
+</html>
