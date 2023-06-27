@@ -153,24 +153,25 @@
 
                     document.body.appendChild(scaledCanvas);
 
-                    if (autoDownloadCheckbox.checked) {
-                        setTimeout(function(){
-                            // download image
-                            let originalName = container.getAttribute('data-name');
-                            let link = document.createElement('a');
-                            let ext = cExt.value;
-                            let newName = originalName + '_crop_' + targetWidth + 'x' + targetHeight + '.' + ext;
-                            link.download = newName;
-                            link.href = scaledCanvas.toDataURL("image/" + ext);
-                            link.click();
-                            link.innerText = newName;
+                    setTimeout(function(){
+                        // download image
+                        let originalName = container.getAttribute('data-name');
+                        let link = document.createElement('a');
+                        let ext = cExt.value;
+                        let newName = originalName + '_crop_' + targetWidth + 'x' + targetHeight + '.' + ext;
+                        link.download = newName;
+                        link.href = scaledCanvas.toDataURL("image/" + ext);
 
-                            let li = document.createElement('li');
-                            li.classList.add('list-group-item');
-                            li.appendChild(link);
-                            resultsContainer.appendChild(li);
-                        }, 100 * counter + 1);
-                    }
+                        if (autoDownloadCheckbox.checked) {
+                            link.click();
+                        }
+                        link.innerText = newName;
+
+                        let li = document.createElement('li');
+                        li.classList.add('list-group-item');
+                        li.appendChild(link);
+                        resultsContainer.appendChild(li);
+                    }, 100 * counter + 1);
                     counter += 1;
                 }
                 resultsParentContainer.style.display = "block";
