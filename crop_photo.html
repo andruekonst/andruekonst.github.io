@@ -133,9 +133,17 @@
                     if (canvas.width < canvas.height) {
                         canvas.height = Math.round(canvas.height * targetWidth / canvas.width);
                         canvas.width = targetWidth;
+                        if (canvas.height < targetHeight) {
+                            canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
+                            canvas.height = targetHeight;
+                        }
                     } else {
                         canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
                         canvas.height = targetHeight;
+                        if (canvas.width < targetWidth) {
+                            canvas.height = Math.round(canvas.height * targetWidth / canvas.width);
+                            canvas.width = targetWidth;
+                        }
                     }
 
                     // container.appendChild(canvas);
