@@ -1,4 +1,93 @@
+- title: GBMILs: Gradient Boosting Models for Multiple Instance Learning
+  slug: konstantinov2023gbmils
+  doi: https://doi.org/10.1007/978-3-031-43111-1_21
+  year: 2023
+  kind: journal
+  bibtex: >
+    @inproceedings{konstantinov2023gbmils,
+      title={GBMILs: Gradient Boosting Models for Multiple Instance Learning},
+      author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir and Zaborovsky, Vladimir},
+      booktitle={International Conference on Interactive Collaborative Robotics},
+      pages={233--245},
+      year={2023},
+      organization={Springer}
+    }
+- title: Interpretable ensembles of hyper-rectangles as base models
+  slug: konstantinov_interpretable_2023
+  doi: https://doi.org/10.1007/s00521-023-08929-8
+  repo: https://github.com/andruekonst/HRBM
+  year: 2023
+  kind: journal
+  bibtex: >
+    @article{konstantinov_interpretable_2023,
+      title={Interpretable ensembles of hyper-rectangles as base models},
+      volume={35},
+      issn={1433-3058},
+      url={https://doi.org/10.1007/s00521-023-08929-8},
+      doi={10.1007/s00521-023-08929-8},
+      number={29},
+      journal={Neural Computing and Applications},
+      author={Konstantinov, Andrei V. and Utkin, Lev V.},
+      month=oct,
+      year={2023},
+      pages={21771--21795}
+    }
+- title: SurvBeX: An explanation method of the machine learning survival models based on the Beran estimator
+  year: 2023
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2308.03730
+- title: Attention-Based Random Forests and the Imprecise Pari-Mutual Model
+  slug: utkin2023attention
+  doi: https://doi.org/10.1007/978-3-031-33159-6_1
+  year: 2023
+  kind: journal
+  bibtex: >
+    @incollection{utkin2023attention,
+      title={Attention-Based Random Forests and the Imprecise Pari-Mutual Model},
+      author={Utkin, Lev V and Konstantinov, Andrei V and Politaeva, Natalia A},
+      booktitle={Cyber-Physical Systems Engineering and Control},
+      pages={3--15},
+      year={2023},
+      publisher={Springer}
+    }
+- title: Multiple Instance Learning with Trainable Soft Decision Tree Ensembles
+  slug: konstantinov2023multiple
+  doi: https://doi.org/10.3390/a16080358
+  year: 2023
+  kind: journal
+  bibtex: |
+    @article{konstantinov2023multiple,
+      title={Multiple Instance Learning with Trainable Soft Decision Tree Ensembles},
+      author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir},
+      journal={Algorithms},
+      volume={16},
+      number={8},
+      pages={358},
+      year={2023},
+      publisher={MDPI}
+    }
+- title: A New Computationally Simple Approach for Implementing Neural Networks with Output Hard Constraints
+  year: 2023
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2307.10459
+  repo: https://github.com/andruekonst/ConstraiNet
+- title: Attention and self-attention in random forests
+  slug: utkin2023attention
+  doi: https://doi.org/10.1007/s13748-023-00301-0
+  repo: https://github.com/andruekonst/forest-self-attention
+  year: 2023
+  kind: journal
+  bibtex: |
+    @article{utkin2023attention,
+      title={Attention and self-attention in random forests},
+      author={Utkin, Lev V and Konstantinov, Andrei V and Kirpichenko, Stanislav R},
+      journal={Progress in Artificial Intelligence},
+      pages={1--17},
+      year={2023},
+      publisher={Springer}
+    }
 - title: Interpretable machine learning with an ensemble of gradient boosting machines
+  slug: konstantinov2021interpretable
   doi: https://doi.org/10.1016/j.knosys.2021.106993
   repo: https://github.com/andruekonst/egbm-gam
   year: 2021
@@ -14,6 +103,7 @@
       publisher={Elsevier}
     }
 - title: A weighted random survival forest
+  slug: utkin2019weighted
   doi: https://doi.org/10.1016/j.knosys.2019.04.015
   year: 2019
   kind: journal
@@ -28,6 +118,7 @@
       publisher={Elsevier}
     }
 - title: Counterfactual explanation of machine learning survival models
+  slug: kovalev2021counterfactual
   doi: https://doi.org/10.15388/21-INFOR468
   year: 2021
   kind: journal
@@ -43,6 +134,7 @@
       publisher={Vilnius University}
     }
 - title: A Deep Forest Improvement by Using Weighted Schemes
+  slug: utkin2019deep
   doi: http://dx.doi.org/10.23919/FRUCT.2019.8711886
   year: 2019
   kind: conference
@@ -56,6 +148,7 @@
       organization={IEEE}
     }
 - title: Deep Forest as a framework for a new class of machine-learning models
+  slug: utkin2019deep
   doi: http://dx.doi.org/10.1093/nsr/nwy151
   year: 2019
   kind: journal
@@ -71,6 +164,7 @@
       publisher={Oxford University Press}
     }
 - title: Attention-based random forest and contamination model
+  slug: utkin2022attention
   doi: https://doi.org/10.1016/j.neunet.2022.07.029
   year: 2022
   kind: journal
@@ -85,6 +179,7 @@
       publisher={Elsevier}
     }
 - title: Ensembles of random SHAPs
+  slug: utkin2022ensembles
   doi: https://doi.org/10.3390/a15110431
   year: 2022
   kind: journal
@@ -100,6 +195,7 @@
       publisher={MDPI}
     }
 - title: A new adaptive weighted deep forest and its modifications
+  slug: utkin2020new
   doi: https://doi.org/10.1142/S0219622020500236
   year: 2020
   kind: journal
@@ -115,6 +211,7 @@
       publisher={World Scientific}
     }
 - title: "SurvNAM: The machine learning survival model explanation"
+  slug: utkin2022survnam
   doi: https://doi.org/10.1016/j.neunet.2021.12.015
   year: 2022
   kind: journal
@@ -129,6 +226,7 @@
       publisher={Elsevier}
     }
 - title: "AGBoost: Attention-based modification of gradient boosting machine"
+  slug: konstantinov2022agboost
   doi: https://doi.org/10.23919/FRUCT54823.2022.9770928
   year: 2022
   kind: conference
@@ -142,6 +240,7 @@
       organization={IEEE}
     }
 - title: Gradient Boosting Machine with Partially Randomized Decision Trees
+  slug: konstantinov2021gradient
   doi: https://doi.org/10.23919/FRUCT50888.2021.9347631
   year: 2021
   kind: conference
@@ -155,6 +254,7 @@
       organization={IEEE}
     }
 - title: A Generalized Stacking for Implementing Ensembles of Gradient Boosting Machines
+  slug: konstantinov2021generalized
   doi: https://doi.org/10.1007/978-3-030-67892-0_1
   year: 2021
   kind: journal
@@ -168,6 +268,7 @@
       publisher={Springer}
     }
 - title: Multi-attention multiple instance learning
+  slug: konstantinov2022multi
   doi: https://doi.org/10.1007/s00521-022-07259-5
   year: 2022
   kind: journal
@@ -187,6 +288,7 @@
   kind: preprint
   arxiv: https://arxiv.org/abs/1901.01334
 - title: Semi-supervised Learning for Medical Image Segmentation
+  slug: kots2021semi
   doi: https://doi.org/10.1007/978-981-33-6632-9_21
   year: 2021
   kind: conference
@@ -208,6 +310,7 @@
   year: 2021
   kind: preprint
 - title: Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions
+  slug: utkin2021combining
   doi: https://doi.org/10.23919/FRUCT50888.2021.9347612
   year: 2021
   kind: conference
@@ -221,6 +324,7 @@
       organization={IEEE}
     }
 - title: The Deep Survival Forest and Elastic-Net-Cox Cascade Models as Extensions of the Deep Forest
+  slug: utkin2021deep
   doi: https://doi.org/10.1007/978-981-33-6632-9_18
   year: 2021
   kind: journal
@@ -234,6 +338,7 @@
       organization={Springer}
     }
 - title: Heterogeneous Treatment Effect with Trained Kernels of the Nadaraya–Watson Regression
+  slug: konstantinov2023heterogeneous
   year: 2023
   doi: https://doi.org/10.3390/a16050226
   kind: journal
@@ -249,6 +354,7 @@
       publisher={MDPI}
     }
 - title: Attention-like feature explanation for tabular data
+  slug: konstantinov2022attention
   doi: https://doi.org/10.1007/s41060-022-00351-y
   year: 2022
   kind: journal
@@ -262,6 +368,7 @@
       publisher={Springer}
     }
 - title: An Extension of the Neural Additive Model for Uncertainty Explanation of Machine Learning Survival Models
+  slug: utkin2022extension
   doi: https://doi.org/10.1007/978-3-030-95116-0_1
   year: 2022
   kind: journal
@@ -275,6 +382,7 @@
       publisher={Springer}
     }
 - title: Deep Gradient Boosting For Regression Problems
+  slug: konstantinov2021deep
   doi: https://doi.org/10.18721/JCSTCS.14301
   year: 2021
   kind: journal
@@ -290,6 +398,7 @@
       publisher={Федеральное государственное автономное образовательное учреждение высшего~…}
     }
 - title: Estimation of Personalized Heterogeneous Treatment Effects Using Concatenation and Augmentation of Feature Vectors
+  slug: utkin2020estimation
   doi: http://dx.doi.org/10.1142/S0218213020500050
   year: 2020
   kind: journal
@@ -305,6 +414,7 @@
       publisher={World Scientific}
     }
 - title: "LARF: Two-Level Attention-Based Random Forests with a Mixture of Contamination Models"
+  slug: konstantinov2023larf
   year: 2023
   doi: https://doi.org/10.3390/informatics10020040
   kind: journal
@@ -332,6 +442,7 @@
   kind: preprint
   arxiv: https://arxiv.org/abs/2302.06601
 - title: Modifications of SHAP for Local Explanation of Function-Valued Predictions Using the Divergence Measures
+  slug: utkin2023modifications
   doi: https://doi.org/10.1007/978-3-031-20875-1_6
   year: 2023
   kind: conference
@@ -345,6 +456,7 @@
       publisher={Springer}
     }
 - title: Robust Models of Distance Metric Learning by Interval-Valued Training Data
+  slug: utkin2023robust
   doi: https://doi.org/10.1007/978-3-031-20875-1_7
   year: 2023
   kind: conference
@@ -358,6 +470,7 @@
       publisher={Springer}
     }
 - title: Improved Anomaly Detection by Using the Attention-Based Isolation Forest
+  slug: utkin2022improved
   doi: https://doi.org/10.3390/a16010019
   year: 2022
   kind: journal
@@ -377,6 +490,7 @@
   doi: https://arxiv.org/abs/2211.10793
   kind: preprint
 - title: An Approach for the Robust Machine Learning Explanation Based on Imprecise Statistical Models
+  slug: utkin2022approach
   doi: https://doi.org/10.1007/978-3-030-93872-7_11
   year: 2022
   kind: conference
@@ -390,6 +504,7 @@
       organization={Springer}
     }
 - title: Multiple Instance Learning through Explanation by Using a Histopathology Example
+  slug: konstantinov2022multiple
   doi: https://doi.org/10.23919/FRUCT54823.2022.9770901
   year: 2022
   kind: conference
@@ -403,6 +518,7 @@
       organization={IEEE}
     }
 - title: Random Survival Forests Incorporated By The Nadaraya-Watson Regression
+  slug: utkin2022random
   year: 2022
   doi: https://doi.org/10.15622/ia.21.5.1
   kind: journal
@@ -417,6 +533,7 @@
       year={2022}
     }
 - title: Random Forests with Attentive Nodes
+  slug: konstantinov2022random
   doi: https://doi.org/10.1016/j.procs.2022.11.029
   year: 2022
   kind: conference
@@ -431,6 +548,7 @@
       publisher={Elsevier}
     }
 - title: Uncertainty Interpretation of the Machine Learning Survival Model Predictions
+  slug: utkin2021uncertainty
   year: 2021
   doi: https://doi.org/10.1109/ACCESS.2021.3108341
   kind: journal
@@ -445,6 +563,7 @@
       publisher={IEEE}
     }
 - title: An Adaptive Weighted Deep Survival Forest
+  slug: utkin2020adaptive
   doi: https://doi.org/10.1109/SCM50615.2020.9198755
   year: 2020
   kind: journal
@@ -458,6 +577,7 @@
       organization={IEEE}
     }
 - title: "Адаптивный весовой глубокий лес выживаемости"
+  slug: уткин2020адаптивный
   year: 2020
   lang: "ru"
   kind: conference
@@ -472,6 +592,7 @@
       organization={Федеральное государственное автономное образовательное учреждение высшего~…}
     }
 - title: "Алгоритмы фиксации уровня и быстрого распространения контура для полуавтоматической сегментации медицинских изображений"
+  slug: вердина2017алгоритмы
   year: 2017
   lang: "ru"
   kind: conference
@@ -484,6 +605,7 @@
       year={2017}
     }
 - title: Сегментация трёхмерных медицинских изображений на основе алгоритмов классификации
+  slug: константинов2018сегментация
   year: 2018
   lang: ru
   kind: conference
