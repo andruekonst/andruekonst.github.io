@@ -1,4 +1,4 @@
-- title: GBMILs: Gradient Boosting Models for Multiple Instance Learning
+- title: "GBMILs: Gradient Boosting Models for Multiple Instance Learning"
   slug: konstantinov2023gbmils
   doi: https://doi.org/10.1007/978-3-031-43111-1_21
   year: 2023
@@ -32,7 +32,7 @@
       year={2023},
       pages={21771--21795}
     }
-- title: SurvBeX: An explanation method of the machine learning survival models based on the Beran estimator
+- title: "SurvBeX: An explanation method of the machine learning survival models based on the Beran estimator"
   year: 2023
   kind: preprint
   arxiv: https://arxiv.org/abs/2308.03730
