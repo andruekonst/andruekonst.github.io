@@ -1,13 +1,32 @@
 ---
 title: Publications
-layout: default
+layout: post
 kinds:
   preprint: Preprints
   journal: Journals
   conference: Conferences
+selected:
+  - konstantinov2021interpretable
+  - konstantinov2022multi
+  - utkin2019weighted
+  - konstantinov2022attention
 ---
 
-List of all publications: [[BibTex]]({% link bibtex_publications.html %})
+## Selected Articles
+
+{% assign selected = page.selected %}
+{% assign pubs = site.data.publications | where_exp: "item", "selected contains item.slug" | sort: "year" | reverse %}
+{% for p in pubs %}
+- {{ p.title }} ({{ p.year }})
+{% if p.doi %}[[DOI]]({{ p.doi }}){% endif %}&nbsp;
+{% if p.repo %}[[GitHub]]({{ p.repo }}){% endif %}&nbsp;
+{% if p.arxiv %}[[ArXiV]]({{ p.arxiv }}){% endif %}
+{% endfor %}
+
+
+## List of All Publications
+
+[[BibTex]]({% link bibtex_publications.html %})
 
 {% assign kinds = site.data.publications | map: 'kind' | uniq %}
 
