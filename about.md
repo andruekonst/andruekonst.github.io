@@ -1,12 +1,11 @@
 ---
 title: About
-layout: default
+layout: post
 ---
 
-# About
+Hi, I am Andrei Konstantinov and this is my personal website.
 
-My name is Andrei Vladimirovich Konstantinov,
-and I am originally from Saint-Petersburg, Russia.
+I am originally from Saint-Petersburg, Russia.
 Having completed my undergraduate education at Peter the Great Polytechnic University
 with a major in Applied Mathematics,
 my academic pursuits have been primarily focused on developing expertise in areas including
