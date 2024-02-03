@@ -1,3 +1,42 @@
+- title: "A new computationally simple approach for implementing neural networks with output hard constraints"
+  slug: konstantinov2023new
+  year: 2023
+  kind: journal
+  arxiv: https://arxiv.org/abs/2307.10459
+  bibtex: >
+    @article{konstantinov2023new,
+      title={A New Computationally Simple Approach For Implementing Neural Networks With Output Hard Constraints},
+      author={Konstantinov, AV and Utkin, LV},
+      journal={Doklady Rossijskoj akademii nauk. Matematika, informatika, processy upravleni{\^a}},
+      volume={514},
+      number={2},
+      pages={80--90},
+      year={2023}
+    }
+- title: "Dual feature-based and example-based explanation methods"
+  year: 2024
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2401.16294
+- title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
+  slug: kirpichenko2024benk
+  doi: https://doi.org/10.3390/a17010040
+  year: 2024
+  kind: journal
+  bibtex: >
+    @article{kirpichenko2024benk,
+      title={BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect},
+      author={Kirpichenko, Stanislav and Utkin, Lev and Konstantinov, Andrei and Muliukha, Vladimir},
+      journal={Algorithms},
+      volume={17},
+      number={1},
+      pages={40},
+      year={2024},
+      publisher={MDPI}
+    }
+- title: "SurvBeNIM: The Beran-Based Neural Importance Model for Explaining the Survival Models"
+  year: 2023
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2312.06638
 - title: "GBMILs: Gradient Boosting Models for Multiple Instance Learning"
   slug: konstantinov2023gbmils
   doi: https://doi.org/10.1007/978-3-031-43111-1_21

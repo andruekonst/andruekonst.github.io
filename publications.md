@@ -6,10 +6,12 @@ kinds:
   journal: Journals
   conference: Conferences
 selected:
+  - konstantinov2023new
   - konstantinov2021interpretable
   - konstantinov2022multi
   - utkin2019weighted
   - konstantinov2022attention
+  - konstantinov_interpretable_2023
 ---
 
 ## Selected Articles
