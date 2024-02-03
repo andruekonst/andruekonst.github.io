@@ -6,6 +6,7 @@ kinds:
   conference: Conferences
   preprint: Preprints
 selected:
+  - konstantinov2023naf
   - konstantinov2023new
   - konstantinov2021interpretable
   - konstantinov2022multi

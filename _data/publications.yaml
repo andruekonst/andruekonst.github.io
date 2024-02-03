@@ -1,3 +1,28 @@
+- title: "Neural Attention Forests: Transformer-Based Forest Improvement"
+  slug: konstantinov2023naf
+  year: 2023
+  kind: conference
+  arxiv: https://arxiv.org/abs/2304.05980
+  doi: https://doi.org/10.1007/978-3-031-43789-2_14
+  repo: https://github.com/andruekonst/NAF
+  bibtex: >
+    @InProceedings{10.1007/978-3-031-43789-2_14,
+      author="Konstantinov, Andrei V.
+      and Utkin, Lev V.
+      and Lukashin, Alexey A.
+      and Muliukha, Vladimir A.",
+      editor="Kovalev, Sergey
+      and Kotenko, Igor
+      and Sukhanov, Andrey",
+      title="Neural Attention Forests: Transformer-Based Forest Improvement",
+      booktitle="Proceedings of the Seventh International Scientific Conference ``Intelligent Information Technologies for Industry'' (IITI'23)",
+      year="2023",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="158--167",
+      abstract="A new approach called NAF (the Neural Attention Forest) for solving regression and classification tasks under tabular training data is proposed. The main idea behind the proposed NAF model is to introduce the attention mechanism into the random forest by assigning attention weights calculated by neural networks of a specific form to data in leaves of decision trees and to the random forest itself in the framework of the Nadaraya-Watson kernel regression. In contrast to the available models like the attention-based random forest, the attention weights and the Nadaraya-Watson regression are represented in the form of neural networks whose weights can be regarded as trainable parameters. The first part of neural networks with shared weights is trained for all trees and computes attention weights of data in leaves. The second part aggregates outputs of the tree networks and aims to minimize the difference between the random forest prediction and the truth target value from a training set. The neural network is trained in an end-to-end manner. The combination of the random forest and neural networks implementing the attention mechanism forms a transformer for enhancing the forest predictions. Numerical experiments with real datasets illustrate the proposed method. The code implementing the approach is publicly available.",
+      isbn="978-3-031-43789-2"
+      }
 - title: "A new computationally simple approach for implementing neural networks with output hard constraints"
   slug: konstantinov2023new
   year: 2023
@@ -146,6 +171,7 @@
 - title: A weighted random survival forest
   slug: utkin2019weighted
   doi: https://doi.org/10.1016/j.knosys.2019.04.015
+  repo: https://github.com/andruekonst/weighted-random-survival-forest
   year: 2019
   kind: journal
   bibtex: |
@@ -311,6 +337,7 @@
 - title: Multi-attention multiple instance learning
   slug: konstantinov2022multi
   doi: https://doi.org/10.1007/s00521-022-07259-5
+  repo: https://github.com/andruekonst/mamil
   year: 2022
   kind: journal
   bibtex: >
@@ -397,6 +424,7 @@
 - title: Attention-like feature explanation for tabular data
   slug: konstantinov2022attention
   doi: https://doi.org/10.1007/s41060-022-00351-y
+  repo: https://github.com/andruekonst/afex
   year: 2022
   kind: journal
   bibtex: >
