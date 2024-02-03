@@ -1,8 +1,10 @@
 - title: "A new computationally simple approach for implementing neural networks with output hard constraints"
   slug: konstantinov2023new
   year: 2023
-  kind: journal
+  kind: conference
   arxiv: https://arxiv.org/abs/2307.10459
+  doi: https://doi.org/10.31857/S2686954323601094
+  repo: https://github.com/andruekonst/constrainet
   bibtex: >
     @article{konstantinov2023new,
       title={A New Computationally Simple Approach For Implementing Neural Networks With Output Hard Constraints},

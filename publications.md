@@ -1,10 +1,10 @@
 ---
-title: Publications
+title: Scientific Publications
 layout: post
 kinds:
-  preprint: Preprints
   journal: Journals
   conference: Conferences
+  preprint: Preprints
 selected:
   - konstantinov2023new
   - konstantinov2021interpretable
@@ -14,7 +14,7 @@ selected:
   - konstantinov_interpretable_2023
 ---
 
-## Selected Articles
+## Selected
 
 {% assign selected = page.selected %}
 {% assign pubs = site.data.publications | where_exp: "item", "selected contains item.slug" | sort: "year" | reverse %}
@@ -26,9 +26,7 @@ selected:
 {% endfor %}
 
 
-## List of All Publications
-
-[[BibTex]]({% link bibtex_publications.html %})
+## List of All Publications [[BibTex]]({% link bibtex_publications.html %})
 
 {% assign kinds = site.data.publications | map: 'kind' | uniq %}
 
@@ -38,11 +36,11 @@ selected:
 
 {% for kind_title in page.kinds %}
 {% if kinds contains kind_title[0] %}
-## {{ kind_title[1] }}
+### {{ kind_title[1] }}
 
 {% assign pubs = site.data.publications | where: 'kind', kind_title[0] | sort: 'year' | reverse %}
 {% for p in pubs %}
-- {{ p.title }} ({{ p.year }})
+{{ forloop.index }}. {{ p.title }} ({{ p.year }})
 {% if p.doi %}[[DOI]]({{ p.doi }}){% endif %}&nbsp;
 {% if p.repo %}[[GitHub]]({{ p.repo }}){% endif %}&nbsp;
 {% if p.arxiv %}[[ArXiV]]({{ p.arxiv }}){% endif %}
