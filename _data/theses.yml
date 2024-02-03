@@ -30,7 +30,7 @@
     - deep learning
     - deep forest
   annotation: |
-    This paper is devoted to development of new machine learning algorithms for regression and classification tasks based on decision trees.
+    This work is devoted to development of new machine learning algorithms for regression and classification tasks based on decision trees.
     The research set the following goals:
       1. Research of decision tree-based machine learning approaches.
       2. Development of new machine learning algorithms.
@@ -40,8 +40,8 @@
     The study resulted in two brand new machine learning algorithms: deep gradient boosting and adaptive gradient boosting ensemble; and the modification of decision tree-based gradient boosting.
     The numerical experiments made during the research, and comparison with other decision tree-based algorithms, including Random Forest, XGBoost and CatBoost, show that developed methods can be used to construct more precise models.
 
-- title: "TBD"
-  translation: "TBD"
+- title: "Разработка и исследование новых интерпретируемых моделей машинного обучения на основе композиций слабых базовых моделей"
+  translation: "Research and development of new Interpretable Machine Learning Models based on Compositions of Weak Base Models"
   degree: PHD
   status: in progress
   lang: ru

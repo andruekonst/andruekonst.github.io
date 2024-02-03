@@ -50,6 +50,16 @@ Original title in russian:
     </td>
 </tr>
 {% endif %}
+{% if t.annotation %}
+<tr>
+    <td>
+        Annotation
+    </td>
+    <td>
+        <pre style="white-space: pre-wrap">{{ t.annotation }}</pre>
+    </td>
+</tr>
+{% endif %}
 </table>
 {% else %}
 Something went wrong and collection of theses is empty :(
