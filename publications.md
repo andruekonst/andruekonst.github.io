@@ -44,12 +44,12 @@ This page contains a list of articles in peer-reviewed scientific journals.
 {{ p.title }}
         </td>
         <td>
-({{ p.year }})
+            <i>{{ p.year }}</i>
         </td>
         <td>
-        {% if p.doi %}<a href="{{ p.doi }}">[DOI]</a>{% endif %}&nbsp;
-        {% if p.repo %}<a href="{{ p.repo }}">[GitHub]</a>{% endif %}&nbsp;
-        {% if p.arxiv %}<a href="{{ p.arxiv }}">[ArXiV]</a>{% endif %}
+        {% if p.doi %}{% include link_to.html title='DOI' platform='doi' link=p.doi %}{% endif %}
+        {% if p.repo %}{% include link_to.html title='GitHub Repository' platform='github' link=p.repo %}{% endif %}
+        {% if p.arxiv %}{% include link_to.html title='ArXiV' platform='arxiv' link=p.arxiv %}{% endif %}
         </td>
 </tr>
 {% endfor %}

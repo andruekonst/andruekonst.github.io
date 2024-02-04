@@ -1,0 +1,15 @@
+{% if include.platform == 'doi' %}
+<a href="{{ include.link }}" target="_blank" title="{{ include.title }}" style="">
+    <img class="svg-icon" src="https://upload.wikimedia.org/wikipedia/commons/1/11/DOI_logo.svg"/>
+</a>
+{% elsif include.platform == 'arxiv' %}
+<a href="{{ include.link }}" target="_blank" title="{{ include.title }}" style="">
+    <img class="svg-icon" src="https://upload.wikimedia.org/wikipedia/commons/b/bc/ArXiv_logo_2022.svg"/>
+</a>
+{% else %}
+<a href="{{ include.link }}" target="_blank" title="{{ include.title }}">
+  <svg class="svg-icon grey">
+    <use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: include.platform | relative_url }}"></use>
+  </svg>
+</a>
+{% endif %}
