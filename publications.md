@@ -1,10 +1,6 @@
 ---
-title: Scientific Publications
+title: Publications
 layout: post
-kinds:
-  journal: Journals
-  conference: Conferences
-  preprint: Preprints
 selected:
   - konstantinov2023naf
   - konstantinov2023new
@@ -15,29 +11,61 @@ selected:
   - konstantinov_interpretable_2023
 ---
 
+<style>
+    table.no-borders td {
+        border: none;
+    }
+    table img.preview {
+        max-width: 75px;
+    }
+</style>
+
+This page contains a list of articles in peer-reviewed scientific journals.
+[[BibTex]]({% link bibtex_publications.html %})
+
+<p>
+{% include_relative _includes/publications_summary.md %}
+</p>
+
+
 ## Selected
 
 {% assign selected = page.selected %}
 {% assign pubs = site.data.publications | where_exp: "item", "selected contains item.slug" | sort: "year" | reverse %}
+<table class="no-borders">
 {% for p in pubs %}
-- {{ p.title }} ({{ p.year }})
-{% if p.doi %}[[DOI]]({{ p.doi }}){% endif %}&nbsp;
-{% if p.repo %}[[GitHub]]({{ p.repo }}){% endif %}&nbsp;
-{% if p.arxiv %}[[ArXiV]]({{ p.arxiv }}){% endif %}
+    <tr>
+        <td>
+            {% if p.image %}
+                <img src="{{ p.image }}" class="preview"/>
+            {% endif %}
+        </td>
+        <td>
+{{ p.title }}
+        </td>
+        <td>
+({{ p.year }})
+        </td>
+        <td>
+        {% if p.doi %}<a href="{{ p.doi }}">[DOI]</a>{% endif %}&nbsp;
+        {% if p.repo %}<a href="{{ p.repo }}">[GitHub]</a>{% endif %}&nbsp;
+        {% if p.arxiv %}<a href="{{ p.arxiv }}">[ArXiV]</a>{% endif %}
+        </td>
+</tr>
 {% endfor %}
+</table>
 
 
-## List of All Publications [[BibTex]]({% link bibtex_publications.html %})
-
+## All
 {% assign kinds = site.data.publications | map: 'kind' | uniq %}
 
-{% if kinds.size > page.kinds.size %}
+{% if kinds.size > site.data.publication_kinds.size %}
 **Some kinds are not handled:** {{kinds | inspect}}
 {% endif %}
 
-{% for kind_title in page.kinds %}
+{% for kind_title in site.data.publication_kinds %}
 {% if kinds contains kind_title[0] %}
-### {{ kind_title[1] }}
+### {{ kind_title[1] }} {#{{ kind_title[0] }}}
 
 {% assign pubs = site.data.publications | where: 'kind', kind_title[0] | sort: 'year' | reverse %}
 {% for p in pubs %}

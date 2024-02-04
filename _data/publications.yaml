@@ -5,6 +5,7 @@
   arxiv: https://arxiv.org/abs/2304.05980
   doi: https://doi.org/10.1007/978-3-031-43789-2_14
   repo: https://github.com/andruekonst/NAF
+  image: /assets/images/selected-publications/naf-transformer.jpg
   bibtex: >
     @InProceedings{10.1007/978-3-031-43789-2_14,
       author="Konstantinov, Andrei V.
@@ -30,6 +31,7 @@
   arxiv: https://arxiv.org/abs/2307.10459
   doi: https://doi.org/10.31857/S2686954323601094
   repo: https://github.com/andruekonst/constrainet
+  image: /assets/images/selected-publications/constrainet-poster.jpg
   bibtex: >
     @article{konstantinov2023new,
       title={A New Computationally Simple Approach For Implementing Neural Networks With Output Hard Constraints},
@@ -81,7 +83,9 @@
 - title: Interpretable ensembles of hyper-rectangles as base models
   slug: konstantinov_interpretable_2023
   doi: https://doi.org/10.1007/s00521-023-08929-8
+  arxiv: https://arxiv.org/abs/2303.08625
   repo: https://github.com/andruekonst/HRBM
+  image: /assets/images/selected-publications/hyper-rectangles.jpg
   year: 2023
   kind: journal
   bibtex: >
@@ -156,6 +160,8 @@
   slug: konstantinov2021interpretable
   doi: https://doi.org/10.1016/j.knosys.2021.106993
   repo: https://github.com/andruekonst/egbm-gam
+  arxiv: https://arxiv.org/abs/2010.07388
+  image: /assets/images/selected-publications/egbm-gam.jpg
   year: 2021
   kind: journal
   bibtex: |
@@ -338,6 +344,8 @@
   slug: konstantinov2022multi
   doi: https://doi.org/10.1007/s00521-022-07259-5
   repo: https://github.com/andruekonst/mamil
+  arxiv: https://arxiv.org/abs/2112.06071
+  image: /assets/images/selected-publications/mamil.jpg
   year: 2022
   kind: journal
   bibtex: >
@@ -425,6 +433,7 @@
   slug: konstantinov2022attention
   doi: https://doi.org/10.1007/s41060-022-00351-y
   repo: https://github.com/andruekonst/afex
+  image: /assets/images/selected-publications/afex-scheme.jpg
   year: 2022
   kind: journal
   bibtex: >
@@ -498,10 +507,6 @@
       year={2023},
       organization={MDPI}
     }
-- title: "Neural Attention Forests: Transformer-Based Forest Improvement"
-  year: 2023
-  kind: preprint
-  arxiv: https://arxiv.org/abs/2304.05980
 - title: Interpretable Ensembles of Hyper-Rectangles as Base Models
   year: 2023
   kind: preprint
