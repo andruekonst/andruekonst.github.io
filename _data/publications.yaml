@@ -27,7 +27,7 @@
 - title: "A new computationally simple approach for implementing neural networks with output hard constraints"
   slug: konstantinov2023new
   year: 2023
-  kind: conference
+  kind: journal
   arxiv: https://arxiv.org/abs/2307.10459
   doi: https://doi.org/10.31857/S2686954323601094
   repo: https://github.com/andruekonst/constrainet
@@ -145,6 +145,7 @@
   slug: utkin2023attention
   doi: https://doi.org/10.1007/s13748-023-00301-0
   repo: https://github.com/andruekonst/forest-self-attention
+  arxiv: https://arxiv.org/abs/2207.04293
   year: 2023
   kind: journal
   bibtex: |
@@ -377,10 +378,6 @@
       year={2021},
       organization={Springer}
     }
-- title: Attention and self-attention in random forests
-  arxiv: https://arxiv.org/abs/2207.04293
-  year: 2022
-  kind: preprint
 - title: An Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data
   arxiv: https://arxiv.org/abs/2106.09111
   year: 2021
@@ -430,19 +427,21 @@
       publisher={MDPI}
     }
 - title: Attention-like feature explanation for tabular data
-  slug: konstantinov2022attention
+  slug: konstantinov2023attention
   doi: https://doi.org/10.1007/s41060-022-00351-y
   repo: https://github.com/andruekonst/afex
   image: /assets/images/selected-publications/afex-scheme.jpg
-  year: 2022
+  year: 2023
   kind: journal
   bibtex: >
-    @article{konstantinov2022attention,
+    @article{konstantinov2023attention,
       title={Attention-like feature explanation for tabular data},
       author={Konstantinov, Andrei V and Utkin, Lev V},
       journal={International Journal of Data Science and Analytics},
+      volume={16},
+      number={1},
       pages={1--26},
-      year={2022},
+      year={2023},
       publisher={Springer}
     }
 - title: An Extension of the Neural Additive Model for Uncertainty Explanation of Machine Learning Survival Models
