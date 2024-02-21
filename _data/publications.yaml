@@ -70,7 +70,7 @@
   slug: konstantinov2023gbmils
   doi: https://doi.org/10.1007/978-3-031-43111-1_21
   year: 2023
-  kind: journal
+  kind: conference
   bibtex: >
     @inproceedings{konstantinov2023gbmils,
       title={GBMILs: Gradient Boosting Models for Multiple Instance Learning},
