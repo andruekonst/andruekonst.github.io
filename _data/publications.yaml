@@ -29,7 +29,8 @@
   year: 2023
   kind: journal
   arxiv: https://arxiv.org/abs/2307.10459
-  doi: https://doi.org/10.31857/S2686954323601094
+  # doi: https://doi.org/10.31857/S2686954323601094
+  doi: https://doi.org/10.1134/S1064562423701077
   repo: https://github.com/andruekonst/constrainet
   image: /assets/images/selected-publications/constrainet-poster.jpg
   bibtex: >
@@ -46,6 +47,22 @@
   year: 2024
   kind: preprint
   arxiv: https://arxiv.org/abs/2401.16294
+- title: "Flexible deep forest classifier with multi-head attention"
+  slug: konstantinov2023flexible
+  doi: https://doi.org/10.18721/JCSTCS.16201
+  repo: https://github.com/ntailab/ABDF
+  year: 2023
+  kind: journal
+  bibtex: >
+    @article{konstantinov2023flexible,
+      title={Flexible deep forest classifier with multi-head attention},
+      author={Konstantinov, AV and Utkin, LV and Kirpichenko, SR},
+      journal={Computing, Telecommunications and Control},
+      volume={16},
+      number={2},
+      pages={7--16},
+      year={2023}
+    }
 - title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
   slug: kirpichenko2024benk
   doi: https://doi.org/10.3390/a17010040
