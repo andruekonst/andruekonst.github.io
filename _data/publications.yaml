@@ -6,6 +6,8 @@
   doi: https://doi.org/10.1007/978-3-031-43789-2_14
   repo: https://github.com/andruekonst/NAF
   image: /assets/images/selected-publications/naf-transformer.jpg
+  db: ['Scopus']
+  gost: "Konstantinov A. V., Utkin L. V., Lukashin A. A., Muliukha V. A. Neural attention forests: Transformer-based forest improvement //International Conference on Intelligent Information Technologies for Industry. – Cham : Springer Nature Switzerland, 2023. – С. 158-167."
   bibtex: >
     @InProceedings{10.1007/978-3-031-43789-2_14,
       author="Konstantinov, Andrei V.
@@ -33,6 +35,8 @@
   doi: https://doi.org/10.1134/S1064562423701077
   repo: https://github.com/andruekonst/constrainet
   image: /assets/images/selected-publications/constrainet-poster.jpg
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  gost: "Konstantinov A. V., Utkin L. V. A new computationally simple approach for implementing neural networks with output hard constraints //Doklady Mathematics. – Moscow : Pleiades Publishing, 2024. – С. 1-9."
   bibtex: >
     @article{konstantinov2023new,
       title={A New Computationally Simple Approach For Implementing Neural Networks With Output Hard Constraints},
@@ -53,6 +57,7 @@
   repo: https://github.com/ntailab/ABDF
   year: 2023
   kind: journal
+  gost: "Konstantinov A. V., Utkin L. V., Kirpichenko S. R. Flexible deep forest classifier with multi-head attention //Computing, Telecommunications and Control. – 2023. – Т. 16. – №. 2. – С. 7-16."
   bibtex: >
     @article{konstantinov2023flexible,
       title={Flexible deep forest classifier with multi-head attention},
@@ -68,6 +73,8 @@
   doi: https://doi.org/10.3390/a17010040
   year: 2024
   kind: journal
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Kirpichenko S. R., Utkin L. V., Konstantinov A. V., Muliukha V. A. BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect //Algorithms. – 2024. – Т. 17. – №. 1. – С. 40."
   bibtex: >
     @article{kirpichenko2024benk,
       title={BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect},
@@ -88,6 +95,8 @@
   doi: https://doi.org/10.1007/978-3-031-43111-1_21
   year: 2023
   kind: conference
+  db: ['Scopus']
+  gost: "Konstantinov A. V., Utkin L. V., Muliukha V. A., Zaborovsky V. S. GBMILs: Gradient Boosting Models for Multiple Instance Learning //International Conference on Interactive Collaborative Robotics. – Cham : Springer Nature Switzerland, 2023. – С. 233-245."
   bibtex: >
     @inproceedings{konstantinov2023gbmils,
       title={GBMILs: Gradient Boosting Models for Multiple Instance Learning},
@@ -105,6 +114,8 @@
   image: /assets/images/selected-publications/hyper-rectangles.jpg
   year: 2023
   kind: journal
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  gost: "Konstantinov A. V., Utkin L. V. Interpretable ensembles of hyper-rectangles as base models //Neural Computing and Applications. – 2023. – Т. 35. – №. 29. – С. 21771-21795."
   bibtex: >
     @article{konstantinov_interpretable_2023,
       title={Interpretable ensembles of hyper-rectangles as base models},
@@ -128,6 +139,8 @@
   doi: https://doi.org/10.1007/978-3-031-33159-6_1
   year: 2023
   kind: journal
+  db: ['Scopus']
+  gost: "Utkin L. V., Konstantinov A. V., Politaeva N. A. Attention-Based Random Forests and the Imprecise Pari-Mutual Model //Cyber-Physical Systems Engineering and Control. – Cham : Springer Nature Switzerland, 2023. – С. 3-15."
   bibtex: >
     @incollection{utkin2023attention,
       title={Attention-Based Random Forests and the Imprecise Pari-Mutual Model},
@@ -142,6 +155,8 @@
   doi: https://doi.org/10.3390/a16080358
   year: 2023
   kind: journal
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A., Utkin L., Muliukha V. Multiple instance learning with trainable soft decision tree ensembles //Algorithms. – 2023. – Т. 16. – №. 8. – С. 358."
   bibtex: |
     @article{konstantinov2023multiple,
       title={Multiple Instance Learning with Trainable Soft Decision Tree Ensembles},
@@ -165,6 +180,8 @@
   arxiv: https://arxiv.org/abs/2207.04293
   year: 2023
   kind: journal
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  gost: "Utkin L. V., Konstantinov A. V., Kirpichenko S. R. Attention and self-attention in random forests //Progress in Artificial Intelligence. – 2023. – Т. 12. – №. 3. – С. 257-273."
   bibtex: |
     @article{utkin2023attention,
       title={Attention and self-attention in random forests},
@@ -182,6 +199,8 @@
   image: /assets/images/selected-publications/egbm-gam.jpg
   year: 2021
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A. V., Utkin L. V. Interpretable machine learning with an ensemble of gradient boosting machines //Knowledge-Based Systems. – 2021. – Т. 222. – С. 106993."
   bibtex: |
     @article{konstantinov2021interpretable,
       title={Interpretable machine learning with an ensemble of gradient boosting machines},
@@ -198,6 +217,8 @@
   repo: https://github.com/andruekonst/weighted-random-survival-forest
   year: 2019
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Konstantinov A. V., Chukanov V. S., Kots M. V., Ryabinin M. A., Meldo A. A. A weighted random survival forest //Knowledge-based systems. – 2019. – Т. 177. – С. 136-144."
   bibtex: |
     @article{utkin2019weighted,
       title={A weighted random survival forest},
@@ -213,6 +234,8 @@
   doi: https://doi.org/10.15388/21-INFOR468
   year: 2021
   kind: journal
+  db: ['Web of Science Core Collection', 'Scopus']
+  gost: "Kovalev M., Utkin L., Coolen F., Konstantinov A. Counterfactual explanation of machine learning survival models //Informatica. – 2021. – Т. 32. – №. 4. – С. 817-847."
   bibtex: |
     @article{kovalev2021counterfactual,
       title={Counterfactual explanation of machine learning survival models},
@@ -229,6 +252,8 @@
   doi: http://dx.doi.org/10.23919/FRUCT.2019.8711886
   year: 2019
   kind: conference
+  db: ['Web of Science Core Collection', 'Scopus']
+  gost: "Utkin L., Konstantinov A., Meldo A., Ryabinin M., Chukanov V. A deep forest improvement by using weighted schemes //2019 24th Conference of Open Innovations Association (FRUCT). – IEEE, 2019. – С. 451-456."
   bibtex: >
     @inproceedings{utkin2019deep,
       title={A deep forest improvement by using weighted schemes},
@@ -243,6 +268,8 @@
   doi: http://dx.doi.org/10.1093/nsr/nwy151
   year: 2019
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Meldo A. A., Konstantinov A. V. Deep Forest as a framework for a new class of machine-learning models //National Science Review. – 2019. – Т. 6. – №. 2. – С. 186-187."
   bibtex: >
     @article{utkin2019deep,
       title={Deep Forest as a framework for a new class of machine-learning models},
@@ -259,6 +286,8 @@
   doi: https://doi.org/10.1016/j.neunet.2022.07.029
   year: 2022
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Konstantinov A. V. Attention-based random forest and contamination model //Neural Networks. – 2022. – Т. 154. – С. 346-359."
   bibtex: >
     @article{utkin2022attention,
       title={Attention-based random forest and contamination model},
@@ -274,6 +303,8 @@
   doi: https://doi.org/10.3390/a15110431
   year: 2022
   kind: journal
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L., Konstantinov A. Ensembles of random SHAPs //Algorithms. – 2022. – Т. 15. – №. 11. – С. 431."
   bibtex: >
     @article{utkin2022ensembles,
       title={Ensembles of random SHAPs},
@@ -290,6 +321,8 @@
   doi: https://doi.org/10.1142/S0219622020500236
   year: 2020
   kind: journal
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Konstantinov A. V., Chukanov V. S., Meldo A. A. A new adaptive weighted deep forest and its modifications //International Journal of Information Technology & Decision Making. – 2020. – Т. 19. – №. 04. – С. 963-986."
   bibtex: >
     @article{utkin2020new,
       title={A new adaptive weighted deep forest and its modifications},
@@ -306,6 +339,8 @@
   doi: https://doi.org/10.1016/j.neunet.2021.12.015
   year: 2022
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Satyukov E. D., Konstantinov A. V. SurvNAM: The machine learning survival model explanation //Neural Networks. – 2022. – Т. 147. – С. 81-102."
   bibtex: >
     @article{utkin2022survnam,
       title={SurvNAM: The machine learning survival model explanation},
@@ -321,6 +356,8 @@
   doi: https://doi.org/10.23919/FRUCT54823.2022.9770928
   year: 2022
   kind: conference
+  db: ['Scopus']
+  gost: "Konstantinov A., Utkin L., Kirpichenko S. AGBoost: Attention-based modification of gradient boosting machine //2022 31st Conference of Open Innovations Association (FRUCT). – IEEE, 2022. – С. 96-101."
   bibtex: >
     @inproceedings{konstantinov2022agboost,
       title={AGBoost: Attention-based modification of gradient boosting machine},
@@ -335,6 +372,8 @@
   doi: https://doi.org/10.23919/FRUCT50888.2021.9347631
   year: 2021
   kind: conference
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A., Utkin L., Muliukha V. Gradient boosting machine with partially randomized decision trees //2021 28th Conference of Open Innovations Association (FRUCT). – IEEE, 2021. – С. 167-173."
   bibtex: >
     @inproceedings{konstantinov2021gradient,
       title={Gradient boosting machine with partially randomized decision trees},
@@ -349,6 +388,8 @@
   doi: https://doi.org/10.1007/978-3-030-67892-0_1
   year: 2021
   kind: journal
+  db: ['Scopus', 'RSCI']
+  gost: "Konstantinov A. V., Utkin L. V. A generalized stacking for implementing ensembles of gradient boosting machines //Cyber-Physical Systems: Digital Technologies and Applications. – 2021. – С. 3-16."
   bibtex: >
     @article{konstantinov2021generalized,
       title={A generalized stacking for implementing ensembles of gradient boosting machines},
@@ -366,6 +407,8 @@
   image: /assets/images/selected-publications/mamil.jpg
   year: 2022
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A. V., Utkin L. V. Multi-attention multiple instance learning //Neural Computing and Applications. – 2022. – Т. 34. – №. 16. – С. 14029-14051."
   bibtex: >
     @article{konstantinov2022multi,
       title={Multi-attention multiple instance learning},
@@ -386,6 +429,8 @@
   doi: https://doi.org/10.1007/978-981-33-6632-9_21
   year: 2021
   kind: conference
+  db: ['Scopus', 'RSCI']
+  gost: "Kots M., Pozigun M., Konstantinov A., Chukanov V. Semi-supervised learning for medical image segmentation //Proceedings of International Scientific Conference on Telecommunications, Computing and Control: TELECCON 2019. – Singapore : Springer Singapore, 2021. – С. 245-253."
   bibtex: >
     @inproceedings{kots2021semi,
       title={Semi-supervised Learning for Medical Image Segmentation},
@@ -404,6 +449,8 @@
   doi: https://doi.org/10.23919/FRUCT50888.2021.9347612
   year: 2021
   kind: conference
+  db: ['Web of Science Core Collection', 'Scopus']
+  gost: "Utkin L., Drobintsev P., Kovalev M., Konstantinov A. Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions //2021 28th Conference of Open Innovations Association (FRUCT). – IEEE, 2021. – С. 489-494."
   bibtex: >
     @inproceedings{utkin2021combining,
       title={Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions},
@@ -417,7 +464,9 @@
   slug: utkin2021deep
   doi: https://doi.org/10.1007/978-981-33-6632-9_18
   year: 2021
-  kind: journal
+  kind: conference
+  db: ['Scopus', 'RSCI']
+  gost: "Utkin L., Konstantinov A., Meldo A., Sokolova V., Coolen F. The deep survival forest and elastic-net-cox cascade models as extensions of the deep forest //Proceedings of International Scientific Conference on Telecommunications, Computing and Control: TELECCON 2019. – Singapore : Springer Singapore, 2021. – С. 205-217."
   bibtex: >
     @inproceedings{utkin2021deep,
       title={The Deep Survival Forest and Elastic-Net-Cox Cascade Models as Extensions of the Deep Forest},
@@ -432,6 +481,8 @@
   year: 2023
   doi: https://doi.org/10.3390/a16050226
   kind: journal
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A., Kirpichenko S., Utkin L. Heterogeneous treatment effect with trained kernels of the Nadaraya–Watson regression //Algorithms. – 2023. – Т. 16. – №. 5. – С. 226."
   bibtex: >
     @article{konstantinov2023heterogeneous,
       title={Heterogeneous Treatment Effect with Trained Kernels of the Nadaraya--Watson Regression},
@@ -450,6 +501,8 @@
   image: /assets/images/selected-publications/afex-scheme.jpg
   year: 2023
   kind: journal
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A. V., Utkin L. V. Attention-like feature explanation for tabular data //International Journal of Data Science and Analytics. – 2023. – Т. 16. – №. 1. – С. 1-26."
   bibtex: >
     @article{konstantinov2023attention,
       title={Attention-like feature explanation for tabular data},
@@ -466,6 +519,8 @@
   doi: https://doi.org/10.1007/978-3-030-95116-0_1
   year: 2022
   kind: journal
+  db: ['Scopus', 'RSCI']
+  gost: "Utkin L., Konstantinov A. An extension of the neural additive model for uncertainty explanation of machine learning survival models //Cyber-Physical Systems: Intelligent Models and Algorithms. – Cham : Springer International Publishing, 2022. – С. 3-13."
   bibtex: >
     @incollection{utkin2022extension,
       title={An Extension of the Neural Additive Model for Uncertainty Explanation of Machine Learning Survival Models},
@@ -480,6 +535,8 @@
   doi: https://doi.org/10.18721/JCSTCS.14301
   year: 2021
   kind: journal
+  # db: ['ВАК']
+  gost: "Konstantinov A. V. Deep gradient boosting for regression problems //Computing, Telecommunications and Control. – 2021. – Т. 14. – №. 3. – С. 7-19."
   bibtex: >
     @article{konstantinov2021deep,
       title={Deep gradient boosting for regression problems},
@@ -496,6 +553,8 @@
   doi: http://dx.doi.org/10.1142/S0218213020500050
   year: 2020
   kind: journal
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Kots M. V., Chukanov V. S., Konstantinov A. V., Meldo A. A. Estimation of Personalized Heterogeneous Treatment Effects Using Concatenation and Augmentation of Feature Vectors //International Journal on Artificial Intelligence Tools. – 2020. – Т. 29. – №. 05. – С. 2050005."
   bibtex: >
     @article{utkin2020estimation,
       title={Estimation of Personalized Heterogeneous Treatment Effects Using Concatenation and Augmentation of Feature Vectors},
@@ -512,6 +571,8 @@
   year: 2023
   doi: https://doi.org/10.3390/informatics10020040
   kind: journal
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Konstantinov A., Utkin L., Muliukha V. LARF: Two-level attention-based random forests with a mixture of contamination models //Informatics. – MDPI, 2023. – Т. 10. – №. 2. – С. 40."
   bibtex: >
     @inproceedings{konstantinov2023larf,
       title={LARF: Two-Level Attention-Based Random Forests with a Mixture of Contamination Models},
@@ -536,6 +597,8 @@
   doi: https://doi.org/10.1007/978-3-031-20875-1_6
   year: 2023
   kind: conference
+  db: ['Scopus']
+  gost: "Utkin L., Petrov A., Konstantinov A. Modifications of SHAP for Local Explanation of Function-Valued Predictions Using the Divergence Measures //International Conference Cyber-Physical Systems and Control. – Cham : Springer International Publishing, 2021. – С. 52-64."
   bibtex: >
     @incollection{utkin2023modifications,
       title={Modifications of SHAP for Local Explanation of Function-Valued Predictions Using the Divergence Measures},
@@ -550,6 +613,8 @@
   doi: https://doi.org/10.1007/978-3-031-20875-1_7
   year: 2023
   kind: conference
+  db: ['Scopus']
+  gost: "Utkin L., Konstantinov A., Muliukha V., Politaeva N. Robust Models of Distance Metric Learning by Interval-Valued Training Data //International Conference Cyber-Physical Systems and Control. – Cham : Springer International Publishing, 2021. – С. 65-77."
   bibtex: >
     @incollection{utkin2023robust,
       title={Robust Models of Distance Metric Learning by Interval-Valued Training Data},
@@ -564,6 +629,8 @@
   doi: https://doi.org/10.3390/a16010019
   year: 2022
   kind: journal
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L., Ageev A., Konsatntinov A., Muliukha V. Improved Anomaly Detection by Using the Attention-Based Isolation Forest //Algorithms. – 2022. – Т. 16. – №. 1. – С. 19."
   bibtex: >
     @article{utkin2022improved,
       title={Improved Anomaly Detection by Using the Attention-Based Isolation Forest},
@@ -584,6 +651,8 @@
   doi: https://doi.org/10.1007/978-3-030-93872-7_11
   year: 2022
   kind: conference
+  db: ['Scopus', 'RSCI']
+  gost: "Utkin L., Zaborovsky V., Muliukha V., Konstantinov A. An Approach for the Robust Machine Learning Explanation Based on Imprecise Statistical Models //Algorithms and Solutions Based on Computer Technology: 5th Scientific International Online Conference Algorithms and Solutions based on Computer Technology (ASBC 2021). – Cham : Springer International Publishing, 2022. – С. 127-135."
   bibtex: >
     @inproceedings{utkin2022approach,
       title={An Approach for the Robust Machine Learning Explanation Based on Imprecise Statistical Models},
@@ -598,6 +667,8 @@
   doi: https://doi.org/10.23919/FRUCT54823.2022.9770901
   year: 2022
   kind: conference
+  db: ['Scopus']
+  gost: "Konstantinov A., Utkin L. Multiple Instance Learning through Explanation by Using a Histopathology Example //2022 31st Conference of Open Innovations Association (FRUCT). – IEEE, 2022. – С. 102-108."
   bibtex: >
     @inproceedings{konstantinov2022multiple,
       title={Multiple Instance Learning through Explanation by Using a Histopathology Example},
@@ -612,6 +683,8 @@
   year: 2022
   doi: https://doi.org/10.15622/ia.21.5.1
   kind: journal
+  db: ['Scopus', 'RSCI']
+  gost: "Utkin L., Konstantinov A. Random survival forests incorporated by the Nadaraya-Watson regression //Информатика и автоматизация. – 2022. – Т. 21. – №. 5. – С. 851-880."
   bibtex: >
     @article{utkin2022random,
       title={Random survival forests incorporated by the Nadaraya-Watson regression},
@@ -627,6 +700,8 @@
   doi: https://doi.org/10.1016/j.procs.2022.11.029
   year: 2022
   kind: conference
+  db: ['Scopus']
+  gost: "Konstantinov A. V., Utkin L. V., Kirpichenko S. R., Kozlov B. V., Ageev A. Y. Random Forests with Attentive Nodes //Procedia Computer Science. – 2022. – Т. 212. – С. 454-463."
   bibtex: >
     @article{konstantinov2022random,
       title={Random Forests with Attentive Nodes},
@@ -642,6 +717,8 @@
   year: 2021
   doi: https://doi.org/10.1109/ACCESS.2021.3108341
   kind: journal
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Utkin L. V., Zaborovsky V. S., Kovalev M. S., Konsatntinov A. V., Politaeva N. A., Lukashin A. A. Uncertainty interpretation of the machine learning survival model predictions //IEEE Access. – 2021. – Т. 9. – С. 120158-120175."
   bibtex: >
     @article{utkin2021uncertainty,
       title={Uncertainty Interpretation of the Machine Learning Survival Model Predictions},
@@ -657,6 +734,8 @@
   doi: https://doi.org/10.1109/SCM50615.2020.9198755
   year: 2020
   kind: journal
+  db: ['Scopus', 'RSCI']
+  gost: "Utkin L. V., Konstantinov A. V., Lukashin A. A., Muliukha V. A. An adaptive weighted deep survival forest //2020 XXIII International Conference on Soft Computing and Measurements (SCM). – IEEE, 2020. – С. 198-201."
   bibtex: >
     @inproceedings{utkin2020adaptive,
       title={An Adaptive Weighted Deep Survival Forest},
@@ -671,6 +750,7 @@
   year: 2020
   lang: "ru"
   kind: conference
+  gost: "Уткин Л. В., Константинов А. В., Лукашин А. А., Мулюха В. А. Адаптивный весовой глубокий лес выживаемости //Международная конференция по мягким вычислениям и измерениям. – Федеральное государственное автономное образовательное учреждение высшего образования Санкт-Петербургский государственный электротехнический университет ЛЭТИ им. ВИ Ульянова (Ленина), 2020. – Т. 1. – С. 220-223."
   bibtex: |
     @inproceedings{уткин2020адаптивный,
       title={Адаптивный весовой глубокий лес выживаемости},
