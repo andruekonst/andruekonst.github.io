@@ -2,6 +2,7 @@
 title: Publications (raw list)
 ---
 
+{% comment %}
 {% assign pubs = site.data.publications | where_exp: "item", "item.kind != 'preprint'" | sort: 'year' %}
 {% assign filtered_pubs = pubs | where_exp: 'it', 'it.kind != "preprint" and it.doi' %}
 <ul>
@@ -13,10 +14,6 @@ title: Publications (raw list)
    {% endif %}
    <li>
        {{ forloop.index }}.
-       {% comment %}
-       {{ publication.title }}, DOI: {{ publication.doi }}, 
-       {{ publication.year }}{% if dbs != '' %} ({{ dbs }}){% endif %}
-       {% endcomment %}
        {{ publication.gost }}
        DOI: {{ publication.doi }}{% if dbs != '' %} ({{ dbs }}).{% endif %}
    </li>
@@ -32,10 +29,6 @@ title: Publications (raw list)
 {% for publication in pubs_inv %}
    <li>
        {{ forloop.index }}.
-       {% comment %}
-       {{ publication.title }}, DOI: {{ publication.doi }}, 
-       {{ publication.year }}{% if dbs != '' %} ({{ dbs }}){% endif %}
-       {% endcomment %}
        {{ publication.title }}
    </li>
 {% endfor %}
@@ -55,10 +48,6 @@ title: Publications (raw list)
    {% endif %}
    <li>
        {{ forloop.index }}.
-       {% comment %}
-       {{ publication.title }}, DOI: {{ publication.doi }}, 
-       {{ publication.year }}{% if dbs != '' %} ({{ dbs }}){% endif %}
-       {% endcomment %}
        {{ publication.gost }}
        DOI: {{ publication.doi }}{% if dbs != '' %} ({{ dbs }}).{% endif %}
    </li>
@@ -84,4 +73,4 @@ title: Publications (raw list)
     </li>
 {% endfor %}
 </ul>
-
+{% endcomment %}
