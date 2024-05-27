@@ -2,10 +2,52 @@
 title: Publications (raw list)
 ---
 
-{% assign pubs = site.data.publications | where_exp: "item", "item.kind != 'preprint'" | sort: 'year' | reverse %}
+{% assign pubs = site.data.publications | where_exp: "item", "item.kind != 'preprint'" | sort: 'year' %}
 {% assign filtered_pubs = pubs | where_exp: 'it', 'it.kind != "preprint" and it.doi' %}
 <ul>
 {% for publication in filtered_pubs %}
+   {% if publication.db %}
+       {% assign dbs = publication.db | join: ', ' %}
+   {% else %}
+       {% assign dbs = '' %}
+   {% endif %}
+   <li>
+       {{ forloop.index }}.
+       {% comment %}
+       {{ publication.title }}, DOI: {{ publication.doi }}, 
+       {{ publication.year }}{% if dbs != '' %} ({{ dbs }}){% endif %}
+       {% endcomment %}
+       {{ publication.gost }}
+       DOI: {{ publication.doi }}{% if dbs != '' %} ({{ dbs }}).{% endif %}
+   </li>
+{% endfor %}
+</ul>
+
+<hr/>
+
+<h3>Titles</h3>
+
+<ul>
+{% assign pubs_inv = filtered_pubs | reversed %}
+{% for publication in pubs_inv %}
+   <li>
+       {{ forloop.index }}.
+       {% comment %}
+       {{ publication.title }}, DOI: {{ publication.doi }}, 
+       {{ publication.year }}{% if dbs != '' %} ({{ dbs }}){% endif %}
+       {% endcomment %}
+       {{ publication.title }}
+   </li>
+{% endfor %}
+</ul>
+
+<hr/>
+
+<h3>Q1</h3>
+
+{% assign q1_pubs = filtered_pubs | where_exp: 'it', 'it.db contains "Q1"' %}
+<ul>
+{% for publication in q1_pubs %}
    {% if publication.db %}
        {% assign dbs = publication.db | join: ', ' %}
    {% else %}
