@@ -1,5 +1,6 @@
 ---
-title: Publications (raw list)
+layout: base
+title: "Publications (raw list)"
 ---
 
 {% assign pubs = site.data.publications | where_exp: "item", "item.kind != 'preprint'" | sort: 'year' %}
