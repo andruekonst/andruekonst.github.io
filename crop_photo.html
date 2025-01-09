@@ -40,6 +40,10 @@
                     <input type="checkbox" id="auto_download" name="auto_download" checked/>
                     <label label="auto_download">Скачивать автоматически</label>
                 </div>
+                <div class="form-group">
+                    <input type="checkbox" id="dont_scale" name="dont_scale" />
+                    <label label="dont_scale">Не масштабировать, просто обрезать</label>
+                </div>
             </form>
                 <div class="form-group">
                     <button onclick="getSizes()" class="btn btn-default">Поставить мин. размеры</button>
@@ -51,6 +55,7 @@
             </div>
             <div>
                 <h3>Промежуточная информация:</h3>
+                <ul class="list-group" id="warnings"></ul>
                 <ul class="sizes list-group"></ul>
                 <p class="cont"></p>
             </div>
@@ -62,6 +67,8 @@
             var resultsContainer = document.querySelector(".results");
             var resultsParentContainer = document.querySelector(".results_parent_container");
             var autoDownloadCheckbox = document.querySelector("#auto_download");
+            var dontScaleCheckbox = document.querySelector("#dont_scale");
+            var warningsContainer = document.querySelector("#warnings");
 
             var loadFile = function(event) {
                 let nFiles = event.target.files.length;
@@ -123,26 +130,41 @@
                 let imageContainers = document.querySelectorAll(".image-container");
                 let counter = 0;
                 resultsContainer.replaceChildren(); // remove previous results
+                warningsContainer.replaceChildren();
                 for (let container of imageContainers) {
                     let containerImg = container.querySelector('img');
                     console.log('Previous dimensions:', containerImg.width, containerImg.height);
                     let canvas = document.createElement('canvas');
                     canvas.width = containerImg.width;
                     canvas.height = containerImg.height;
+
                     // scale the first canvas
-                    if (canvas.width < canvas.height) {
-                        canvas.height = Math.round(canvas.height * targetWidth / canvas.width);
-                        canvas.width = targetWidth;
-                        if (canvas.height < targetHeight) {
-                            canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
-                            canvas.height = targetHeight;
-                        }
-                    } else {
-                        canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
-                        canvas.height = targetHeight;
-                        if (canvas.width < targetWidth) {
+                    if (!dontScaleCheckbox.checked) {
+                        if (canvas.width < canvas.height) {
                             canvas.height = Math.round(canvas.height * targetWidth / canvas.width);
                             canvas.width = targetWidth;
+                            if (canvas.height < targetHeight) {
+                                canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
+                                canvas.height = targetHeight;
+                            }
+                        } else {
+                            canvas.width = Math.round(canvas.width * targetHeight / canvas.height);
+                            canvas.height = targetHeight;
+                            if (canvas.width < targetWidth) {
+                                canvas.height = Math.round(canvas.height * targetWidth / canvas.width);
+                                canvas.width = targetWidth;
+                            }
+                        }
+                    } else {
+                        if (canvas.width < targetWidth || canvas.height < targetHeight) {
+                            let li = document.createElement('li');
+                            li.innerText = "Исходная картинка меньше, чем нужно: ";
+                            li.innerText += container.getAttribute('data-name');
+                            li.innerText += ' с разрешением: ' + canvas.width + 'x' + canvas.height;
+                            li.classList.add('list-group-item');
+                            li.classList.add('alert');
+                            li.classList.add('alert-danger');
+                            warningsContainer.appendChild(li);
                         }
                     }
 

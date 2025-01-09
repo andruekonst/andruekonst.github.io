@@ -1,3 +1,137 @@
+- title: "Imposing Star-Shaped Hard Constraints on the Neural Network Output"
+  slug: konstantinov2024imposing
+  year: 2024
+  kind: journal
+  # arxiv: ""
+  doi: https://doi.org/10.3390/math12233788
+  repo: https://github.com/NTAILab/star_hard_constraints
+  image: /assets/images/selected-publications/star-shaped.jpg
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  gost: "Konstantinov A., Utkin L., Muliukha V. Imposing Star-Shaped Hard Constraints on the Neural Network Output //Mathematics. – 2024. – Т. 12. – №. 23. – С. 3788."
+  bibtex: >
+    @article{konstantinov2024imposing,
+      title={Imposing Star-Shaped Hard Constraints on the Neural Network Output},
+      author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir},
+      journal={Mathematics},
+      volume={12},
+      number={23},
+      pages={3788},
+      year={2024},
+      publisher={MDPI}
+    }
+- title: "An Explicit Concept-Based Approach for Incorporating Expert Rules into Machine Learning Models"
+  slug: konstantinov2024explicit
+  year: 2024
+  kind: conference
+  # arxiv: ""
+  doi: https://doi.org/10.1007/978-3-031-77688-5_15
+  repo: https://github.com/andruekonst/ecbl
+  image: /assets/images/selected-publications/ecbl-example.jpg
+  db: ['Scopus']
+  gost: "Konstantinov A. V., Utkin L. V. An Explicit Concept-Based Approach for Incorporating Expert Rules into Machine Learning Models //International Conference on Intelligent Information Technologies for Industry. – Cham : Springer Nature Switzerland, 2024. – С. 153-162."
+  bibtex: >
+    @inproceedings{konstantinov2024explicit,
+      title={An Explicit Concept-Based Approach for Incorporating Expert Rules into Machine Learning Models},
+      author={Konstantinov, Andrei V and Utkin, Lev V},
+      booktitle={International Conference on Intelligent Information Technologies for Industry},
+      pages={153--162},
+      year={2024},
+      organization={Springer}
+    }
+- title: "Incorporating Expert Rules into Neural Networks in the Framework of Concept-Based Learning"
+  slug: konstantinov2024incorporating
+  year: 2024
+  kind: preprint
+  repo: https://github.com/andruekonst/ecbl
+  arxiv: https://arxiv.org/abs/2402.14726
+  gost: "Konstantinov A. V., Utkin L. V. Incorporating Expert Rules into Neural Networks in the Framework of Concept-Based Learning //arXiv preprint arXiv:2402.14726. – 2024."
+  bibtex: >
+    @article{konstantinov2024incorporating,
+      title={Incorporating Expert Rules into Neural Networks in the Framework of Concept-Based Learning},
+      author={Konstantinov, Andrei V and Utkin, Lev V},
+      journal={arXiv preprint arXiv:2402.14726},
+      year={2024}
+    }
+- title: "SurvBeX: an explanation method of the machine learning survival models based on the Beran estimator"
+  slug: utkin2024survbex
+  year: 2024
+  kind: journal
+  arxiv: https://arxiv.org/abs/2308.03730
+  doi: https://doi.org/10.1007/s41060-024-00636-4
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  gost: "Utkin L. V., Eremenko D. Y., Konstantinov A. V. SurvBeX: an explanation method of the machine learning survival models based on the Beran estimator //International Journal of Data Science and Analytics. – 2024. – С. 1-26."
+  bibtex: >
+    @article{utkin2024survbex,
+      title={SurvBeX: an explanation method of the machine learning survival models based on the Beran estimator},
+      author={Utkin, Lev V and Eremenko, Danila Y and Konstantinov, Andrei V},
+      journal={International Journal of Data Science and Analytics},
+      pages={1--26},
+      year={2024},
+      publisher={Springer}
+    }
+- title: "FI-CBL: A Probabilistic Method for Concept-Based Learning with Expert Rules"
+  year: 2024
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2406.19897
+  repo: https://github.com/NTAILab/simple_concepts
+- title: "Generating Survival Interpretable Trajectories and Data"
+  year: 2024
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2402.12331
+  repo: https://github.com/NTAILab/SurvTraj
+- title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
+  slug: kirpichenko2024benk
+  doi: https://doi.org/10.3390/a17010040
+  arxiv: https://arxiv.org/abs/2211.10793
+  year: 2024
+  kind: journal
+  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  gost: "Kirpichenko S. R., Utkin L. V., Konstantinov A. V., Muliukha V. A. BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect //Algorithms. – 2024. – Т. 17. – №. 1. – С. 40."
+  bibtex: >
+    @article{kirpichenko2024benk,
+      title={BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect},
+      author={Kirpichenko, Stanislav and Utkin, Lev and Konstantinov, Andrei and Muliukha, Vladimir},
+      journal={Algorithms},
+      volume={17},
+      number={1},
+      pages={40},
+      year={2024},
+      publisher={MDPI}
+    }
+- title: "Interpretation methods for machine learning models in the framework of survival analysis with censored data: a brief overview"
+  slug: utkin2024interpretation
+  doi: https://doi.org/10.18721/JCSTCS.17302
+  year: 2024
+  kind: journal
+  gost: "Utkin L. V. et al. Interpretation methods for machine learning models in the framework of survival analysis with censored data: a brief overview //Информатика, телекоммуникации и управление. – 2024. – Т. 17. – №. 3. – С. 22-31."
+  bibtex: >
+    @article{utkin2024interpretation,
+      title={Interpretation methods for machine learning models in the framework of survival analysis with censored data: a brief overview},
+      author={Utkin, Lev Vladimirovich and Konstantinov, Andrei Vladimirovich and Eremenko, Danila Yu and Zaborovsky, Vladimir Sergeevich and Muliukha, Vladimir},
+      journal={Информатика, телекоммуникации и управление},
+      volume={17},
+      number={3},
+      pages={22--31},
+      year={2024},
+      publisher={Санкт-Петербургский политехнический университет Петра Великого}
+    }
+- title: "Predictive models and dynamics of estimates of applied tasks characteristics using machine learning methods"
+  slug: konstantinov2024predictive
+  doi: https://doi.org/10.18721/JCSTCS.17305
+  year: 2024
+  kind: journal
+  gost: "Konstantinov A. V. Predictive models and dynamics of estimates of applied tasks characteristics using machine learning methods //Информатика, телекоммуникации и управление. – 2024. – Т. 17. – №. 3. – С. 54-60."
+  bibtex: >
+    @article{konstantinov2024predictive,
+      title={Predictive models and dynamics of estimates of applied tasks characteristics using machine learning methods},
+      author={Konstantinov, Andrei Vladimirovich},
+      journal={Информатика, телекоммуникации и управление},
+      volume={17},
+      number={3},
+      pages={54--60},
+      year={2024},
+      publisher={Санкт-Петербургский политехнический университет Петра Великого}
+    }
 - title: "Neural Attention Forests: Transformer-Based Forest Improvement"
   slug: konstantinov2023naf
   year: 2023
@@ -68,24 +202,6 @@
       pages={7--16},
       year={2023}
     }
-- title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
-  slug: kirpichenko2024benk
-  doi: https://doi.org/10.3390/a17010040
-  year: 2024
-  kind: journal
-  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
-  gost: "Kirpichenko S. R., Utkin L. V., Konstantinov A. V., Muliukha V. A. BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect //Algorithms. – 2024. – Т. 17. – №. 1. – С. 40."
-  bibtex: >
-    @article{kirpichenko2024benk,
-      title={BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect},
-      author={Kirpichenko, Stanislav and Utkin, Lev and Konstantinov, Andrei and Muliukha, Vladimir},
-      journal={Algorithms},
-      volume={17},
-      number={1},
-      pages={40},
-      year={2024},
-      publisher={MDPI}
-    }
 - title: "SurvBeNIM: The Beran-Based Neural Importance Model for Explaining the Survival Models"
   year: 2023
   kind: preprint
@@ -114,7 +230,7 @@
   image: /assets/images/selected-publications/hyper-rectangles.jpg
   year: 2023
   kind: journal
-  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
   gost: "Konstantinov A. V., Utkin L. V. Interpretable ensembles of hyper-rectangles as base models //Neural Computing and Applications. – 2023. – Т. 35. – №. 29. – С. 21771-21795."
   bibtex: >
     @article{konstantinov_interpretable_2023,
@@ -130,10 +246,6 @@
       year={2023},
       pages={21771--21795}
     }
-- title: "SurvBeX: An explanation method of the machine learning survival models based on the Beran estimator"
-  year: 2023
-  kind: preprint
-  arxiv: https://arxiv.org/abs/2308.03730
 - title: Attention-Based Random Forests and the Imprecise Pari-Mutual Model
   slug: utkin2023attention
   doi: https://doi.org/10.1007/978-3-031-33159-6_1
@@ -180,7 +292,7 @@
   arxiv: https://arxiv.org/abs/2207.04293
   year: 2023
   kind: journal
-  db: ['Q2', 'Web of Science Core Collection', 'Scopus']
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
   gost: "Utkin L. V., Konstantinov A. V., Kirpichenko S. R. Attention and self-attention in random forests //Progress in Artificial Intelligence. – 2023. – Т. 12. – №. 3. – С. 257-273."
   bibtex: |
     @article{utkin2023attention,
@@ -571,7 +683,7 @@
   year: 2023
   doi: https://doi.org/10.3390/informatics10020040
   kind: journal
-  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
+  db: ['Q1', 'Web of Science Core Collection', 'Scopus', 'RSCI']
   gost: "Konstantinov A., Utkin L., Muliukha V. LARF: Two-level attention-based random forests with a mixture of contamination models //Informatics. – MDPI, 2023. – Т. 10. – №. 2. – С. 40."
   bibtex: >
     @inproceedings{konstantinov2023larf,
@@ -642,10 +754,6 @@
       year={2022},
       publisher={MDPI}
     }
-- title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
-  year: 2022
-  doi: https://arxiv.org/abs/2211.10793
-  kind: preprint
 - title: An Approach for the Robust Machine Learning Explanation Based on Imprecise Statistical Models
   slug: utkin2022approach
   doi: https://doi.org/10.1007/978-3-030-93872-7_11

@@ -5,11 +5,15 @@ layout: post
 
 {% assign theses = site.data.theses | sort: 'year', 'last' | reverse %}
 {% for t in theses %}
-### {{ t.degree }} ({{ t.year | default: "in progress" }})
-**Title:** {{ t.translation }}. 
+### {{ t.degree }} ({{ t.year | default: "in progress" }}) {#{{ t.degree | slugify }}}
+**«{{ t.translation }}»**
 {% if t.lang == 'ru' %}
 Original title in russian:
 > {{ t.title }}
+{% endif %}
+{% if t.defence_url %}
+
+<a href="{{ t.defence_url }}" target=_blank>Official defence page</a>
 {% endif %}
 
 <table>
@@ -21,6 +25,28 @@ Original title in russian:
     <td>
         {{ t.speciality }}<br/>
         {{ t.subspeciality }}
+    </td>
+</tr>
+{% endif %}
+{% if t.date %}
+<tr>
+    <td>
+        Date
+    </td>
+    <td>
+        {{ t.date }}
+    </td>
+</tr>
+{% endif %}
+{% if t.links %}
+<tr>
+    <td>
+        Links
+    </td>
+    <td>
+        {% for link in t.links %}
+            <a href="{{ link[1] }}" target=_blank>{{ link[0] }}</a><br />
+        {% endfor %}
     </td>
 </tr>
 {% endif %}

@@ -1,7 +1,9 @@
 ---
-title: Publications
+title: Sci. Publications
 layout: post
 selected:
+  - konstantinov2024explicit
+  - konstantinov2024imposing
   - konstantinov2023naf
   - konstantinov2023new
   - konstantinov2021interpretable

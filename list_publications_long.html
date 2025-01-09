@@ -2,7 +2,6 @@
 title: Publications (raw list)
 ---
 
-{% comment %}
 {% assign pubs = site.data.publications | where_exp: "item", "item.kind != 'preprint'" | sort: 'year' %}
 {% assign filtered_pubs = pubs | where_exp: 'it', 'it.kind != "preprint" and it.doi' %}
 <ul>
@@ -73,4 +72,4 @@ title: Publications (raw list)
     </li>
 {% endfor %}
 </ul>
-{% endcomment %}
+

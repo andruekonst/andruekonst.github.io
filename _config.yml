@@ -15,6 +15,7 @@ minima:
 header_pages:
   - index.html
   - publications.md
+  - posts.md
   - about.md
 show_excerpts: true
 

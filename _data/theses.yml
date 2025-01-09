@@ -41,8 +41,13 @@
     The numerical experiments made during the research, and comparison with other decision tree-based algorithms, including Random Forest, XGBoost and CatBoost, show that developed methods can be used to construct more precise models.
 
 - title: "Разработка и исследование новых интерпретируемых моделей машинного обучения на основе композиций слабых базовых моделей"
-  translation: "Research and development of new Interpretable Machine Learning Models based on Compositions of Weak Base Models"
+  translation: "Research and Development of New Interpretable Machine Learning Models based on Compositions of Weak Base Models"
+  year: 2024
   degree: PHD
-  status: in progress
+  status: defended
   lang: ru
+  speciality: "1.2.2. Mathematical modeling, numerical methods and software packages"
+  date: "11.12.2024"
+  links:
+    "Official defence page": "https://www.spbstu.ru/science/the-department-of-doctoral-studies/defences-calendar/the-degree-of-candidate-of-sciences/konstantinov_andrey_vladimirovich/"
 

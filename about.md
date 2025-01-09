@@ -22,7 +22,7 @@ machine learning, computer vision, and data science.
     {% include_relative _includes/publications_summary.md %}
 - [Theses](theses)
 {% for t in theses %}
-    - **{{ t.degree }}** ({{ t.year | default: "in progress" }}) {{ t.translation }}. 
+    - [**{{ t.degree }}** ({{ t.year | default: "in progress" }}) {{ t.translation }} ](theses#{{ t.degree | slugify }})
 {% endfor %}
 
 ## Other
