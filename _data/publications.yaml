@@ -310,7 +310,7 @@
   doi: https://doi.org/10.3390/a16080358
   year: 2023
   kind: journal
-  db: ['Web of Science Core Collection', 'Scopus', 'RSCI']
+  db: ['Q2', 'Web of Science Core Collection', 'Scopus', 'RSCI']
   gost: "Konstantinov A., Utkin L., Muliukha V. Multiple instance learning with trainable soft decision tree ensembles //Algorithms. – 2023. – Т. 16. – №. 8. – С. 358."
   bibtex: |
     @article{konstantinov2023multiple,
@@ -596,10 +596,32 @@
       organization={Springer}
     }
 - title: "An Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data"
+  slug: Utkin2025
   arxiv: https://arxiv.org/abs/2106.09111
   year: 2025
   kind: journal
   doi: https://doi.org/10.1007/978-3-031-80710-7_27
+  gost: "TODO"
+  db: ['Scopus']
+  bibtex: >
+    @Inbook{Utkin2025,
+      author="Utkin, Lev
+      and Konstantinov, Andrei
+      and Vishniakov, Kirill
+      and Ilin, Igor",
+      editor="Ilin, Igor
+      and Youzhong, Ma",
+      title="Imprecise SHAP as a Tool for Explaining the Class Probability Distributions Under Limited Training Data",
+      bookTitle="Digital Systems and Information Technologies in the Energy Sector",
+      year="2025",
+      publisher="Springer Nature Switzerland",
+      address="Cham",
+      pages="369--389",
+      abstract="Applications of artificial intelligence in predictive analytics of the energy complex meets with risks of incorrect predictions caused by data errors, lack of data, and overtraining of models. Risks can be minimized if to use meta-models which could interpret and explain the provided predictions. One of the most popular methods of the machine learning prediction explanation (XAI) is the SHapley Additive exPlanations method (SHAP). An imprecise SHAP as a modification of the original SHAP is proposed for cases when the class probability distributions are imprecise and represented by sets of distributions. The first idea behind the imprecise SHAP is a new approach for computing the marginal contribution of a feature, which fulfils the important efficiency property of Shapley values. The second idea is an attempt to consider a general approach to calculating and reducing interval-valued Shapley values, which is similar to the idea of reachable probability intervals in the imprecise probability theory. A simple special implementation of the general approach in the form of linear optimization problems is proposed. It is based on using the Kolmogorov--Smirnov distance and imprecise contamination models. Numerical examples with synthetic and real data illustrate the imprecise SHAP.",
+      isbn="978-3-031-80710-7",
+      doi="10.1007/978-3-031-80710-7_27",
+      url="https://doi.org/10.1007/978-3-031-80710-7_27"
+    }
 - title: Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions
   slug: utkin2021combining
   doi: https://doi.org/10.23919/FRUCT50888.2021.9347612
