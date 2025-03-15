@@ -1,3 +1,20 @@
+- title: "Ada-naf: semi-supervised anomaly detection based on the neural attention forest"
+  slug: ageev2025ada
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.15622/ia.24.1.12
+  db: ['Scopus', 'RSCI']
+  gost: "Ageev A. Y., Konstantinov A. V., Utkin L. V. ADA-NAF: Semi-Supervised Anomaly Detection Based on the Neural Attention Forest //Informatics and Automation. – 2025. – Т. 24. – №. 1. – С. 329-357."
+  bibtex: >
+    @article{ageev2025ada,
+      title={ADA-NAF: Semi-Supervised Anomaly Detection Based on the Neural Attention Forest},
+      author={Ageev, A Yu and Konstantinov, AV and Utkin, LV},
+      journal={Informatics and Automation},
+      volume={24},
+      number={1},
+      pages={329--357},
+      year={2025}
+    }
 - title: "Imposing Star-Shaped Hard Constraints on the Neural Network Output"
   slug: konstantinov2024imposing
   year: 2024
@@ -182,9 +199,23 @@
       year={2023}
     }
 - title: "Dual feature-based and example-based explanation methods"
-  year: 2024
-  kind: preprint
+  slug: konstantinov2025dual
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.3389/frai.2025.1506074 
   arxiv: https://arxiv.org/abs/2401.16294
+  gost: "Konstantinov A. et al. Dual feature-based and example-based explanation methods //Frontiers in Artificial Intelligence. – 2025. – Т. 8. – С. 1506074."
+  db: ['Q2', 'Scopus', 'Web of Science Core Collection']
+  bibtex: >
+    @article{konstantinov2025dual,
+      title={Dual feature-based and example-based explanation methods},
+      author={Konstantinov, Andrei and Kozlov, Boris and Kirpichenko, Stanislav and Utkin, Lev and Muliukha, Vladimir},
+      journal={Frontiers in Artificial Intelligence},
+      volume={8},
+      pages={1506074},
+      year={2025},
+      publisher={Frontiers Media SA}
+    }
 - title: "Flexible deep forest classifier with multi-head attention"
   slug: konstantinov2023flexible
   doi: https://doi.org/10.18721/JCSTCS.16201
@@ -203,9 +234,21 @@
       year={2023}
     }
 - title: "SurvBeNIM: The Beran-Based Neural Importance Model for Explaining the Survival Models"
-  year: 2023
-  kind: preprint
+  slug: utkin2025survbenim
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.1109/ACCESS.2025.3537459
   arxiv: https://arxiv.org/abs/2312.06638
+  gost: "Utkin L. V. et al. SurvBeNIM: The Beran-Based Neural Importance Model for Explaining Survival Models //IEEE Access. – 2025."
+  db: ['Q1', 'Scopus', 'Web of Science Core Collection']
+  bibtex: >
+    @article{utkin2025survbenim,
+      title={SurvBeNIM: The Beran-Based Neural Importance Model for Explaining Survival Models},
+      author={Utkin, Lev V and Eremenko, Danila Y and Konstantinov, Andrei V and Muliukha, Vladimir A},
+      journal={IEEE Access},
+      year={2025},
+      publisher={IEEE}
+    }
 - title: "GBMILs: Gradient Boosting Models for Multiple Instance Learning"
   slug: konstantinov2023gbmils
   doi: https://doi.org/10.1007/978-3-031-43111-1_21
@@ -552,10 +595,11 @@
       year={2021},
       organization={Springer}
     }
-- title: An Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data
+- title: "An Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data"
   arxiv: https://arxiv.org/abs/2106.09111
-  year: 2021
-  kind: preprint
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.1007/978-3-031-80710-7_27
 - title: Combining an autoencoder and a variational autoencoder for explaining the machine learning model predictions
   slug: utkin2021combining
   doi: https://doi.org/10.23919/FRUCT50888.2021.9347612
