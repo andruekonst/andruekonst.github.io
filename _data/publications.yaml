@@ -1,3 +1,19 @@
+- title: "Survival concept-based learning models"
+  slug: kirpichenko2025survival
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.1007/s10844-025-00958-0
+  db: ['Q2', 'Scopus', 'Web of Science Core Collection']
+  gost: "Kirpichenko S. R., Utkin L. V., Konstantinov A. V. et al. Survival concept-based learning models //Journal fo Intelligent Information Systems. – 2025. – С. 1-25."
+  bibtex: >
+    @article{kirpichenko2025survival,
+      title={Survival concept-based learning models},
+      author={Kirpichenko, Stanislav R and Utkin, Lev V and Konstantinov, Andrei V and Verbova, Natalya M},
+      journal={Journal of Intelligent Information Systems},
+      pages={1--25},
+      year={2025},
+      publisher={Springer}
+    }
 - title: "Ada-naf: semi-supervised anomaly detection based on the neural attention forest"
   slug: ageev2025ada
   year: 2025
