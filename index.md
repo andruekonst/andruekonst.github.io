@@ -20,9 +20,6 @@ layout: post
         <a href="{% link posts.md %}">Posts</a>
     </div>
     <div class="main_button">
-        <a href="{% link tools.md %}">Tools</a>
-    </div>
-    <div class="main_button">
         <a href="{% link about.md %}">About</a>
     </div>
 </center>
