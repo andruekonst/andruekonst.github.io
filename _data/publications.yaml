@@ -1,3 +1,39 @@
+- title: "Survival Analysis as Imprecise Classification with Trainable Kernels"
+  slug: konstantinov2025survival
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.3390/math13183040
+  repo: https://github.com/NTAILab/iSurvMQJ
+  arxiv: https://arxiv.org/abs/2506.10140
+  db: ['Q1', 'Scopus', 'Web of Science Core Collection']
+  gost: "Konstantinov A. et al. Survival Analysis as Imprecise Classification with Trainable Kernels //Mathematics. – 2025. – Т. 13. – №. 18. – С. 3040."
+  bibtex: >
+    @article{konstantinov2025survival,
+      title={Survival Analysis as Imprecise Classification with Trainable Kernels},
+      author={Konstantinov, Andrei and Utkin, Lev and Efremenko, Vlada and Muliukha, Vladimir and Lukashin, Alexey and Verbova, Natalya},
+      journal={Mathematics},
+      volume={13},
+      number={18},
+      pages={3040},
+      year={2025},
+      publisher={MDPI}
+    }
+- title: "Ensemble-Based Survival Models with the Self-Attended Beran Estimator Predictions"
+  slug: utkin2025ensemble
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.1007/s10598-025-09633-z
+  db: ['Scopus']
+  gost: "Utkin L. V. et al. Ensemble-Based Survival Models with the Self-Attended Beran Estimator Predictions //Computational Mathematics and Modeling. – 2025. – С. 1-18."
+  bibtex: >
+    @article{utkin2025ensemble,
+      title={Ensemble-Based Survival Models with the Self-Attended Beran Estimator Predictions},
+      author={Utkin, Lev V and Konstantinov, Andrei V and Khomets, Semen P and Efremenko, Vlada A and Verbova, Natalya M},
+      journal={Computational Mathematics and Modeling},
+      pages={1--18},
+      year={2025},
+      publisher={Springer}
+    }
 - title: "Survival concept-based learning models"
   slug: kirpichenko2025survival
   year: 2025
