@@ -1,3 +1,68 @@
+- title: "Neural Network as a Loss Function for Constructing Decision Tree"
+  slug: konstantinov2025neural
+  year: 2025
+  kind: conference
+  doi: https://doi.org/10.1007/978-3-032-13612-1_11
+  db: ['Scopus']
+  gost: "Konstantinov A. V., Utkin L. V., Verbova N. M. Neural Network as a Loss Function for Constructing Decision Tree //International Conference on Intelligent Information Technologies for Industry. – Cham : Springer Nature Switzerland, 2025. – С. 108-120."
+  bibtex: >
+    @inproceedings{konstantinov2025neural,
+      title={Neural Network as a Loss Function for Constructing Decision Tree},
+      author={Konstantinov, Andrei V and Utkin, Lev V and Verbova, Natalya M},
+      booktitle={International Conference on Intelligent Information Technologies for Industry},
+      pages={108--120},
+      year={2025},
+      organization={Springer}
+    }
+- title: "The Weibull Distribution as a Parametric Survival Model Incorporated Into the Second-Order Gradient Boosting"
+  slug: efremenko2025weibull
+  year: 2025
+  kind: conference
+  doi: https://doi.org/10.1007/978-3-032-13615-2_3
+  db: ['Scopus']
+  gost: "Efremenko V. A., Konstantinov A. V., Utkin L. V. The Weibull Distribution as a Parametric Survival Model Incorporated Into the Second-Order Gradient Boosting //International Conference on Intelligent Information Technologies for Industry. – Cham : Springer Nature Switzerland, 2025. – С. 21-29."
+  bibtex: >
+    @inproceedings{efremenko2025weibull,
+      title={The Weibull Distribution as a Parametric Survival Model Incorporated Into the Second-Order Gradient Boosting},
+      author={Efremenko, Vlada A and Konstantinov, Andrei V and Utkin, Lev V},
+      booktitle={International Conference on Intelligent Information Technologies for Industry},
+      pages={21--29},
+      year={2025},
+      organization={Springer}
+    }
+- title: "A Probabilistic Concept-Based Learning Method Within the Framework of Survival Analysis"
+  slug: utkin2025probabilistic
+  year: 2025
+  kind: conference
+  doi: https://doi.org/10.1007/978-3-032-13612-1_10
+  db: ['Scopus']
+  gost: "Utkin L. V. et al. A Probabilistic Concept-Based Learning Method Within the Framework of Survival Analysis //International Conference on Intelligent Information Technologies for Industry. – Cham : Springer Nature Switzerland, 2025. – С. 96-107."
+  bibtex: >
+    @inproceedings{utkin2025probabilistic,
+      title={A Probabilistic Concept-Based Learning Method Within the Framework of Survival Analysis},
+      author={Utkin, Lev V and Kirpichenko, Stanislav R and Konstantinov, Andrei V and Zaborovsky, Vladimir S and Orlov, Igor N and Verbova, Natalya M},
+      booktitle={International Conference on Intelligent Information Technologies for Industry},
+      pages={96--107},
+      year={2025},
+      organization={Springer}
+    }
+- title: "Set-Input Trees: An Interpretable Multiple Instance Learning Architecture for Robotics"
+  slug: konstantinov2025set
+  year: 2025
+  kind: conference
+  repo: https://github.com/NTAILab/xSIT/
+  doi: https://doi.org/10.1007/978-3-032-11903-2_15
+  db: ['Scopus']
+  gost: "Konstantinov A., Utkin L. Set-Input Trees: An Interpretable Multiple Instance Learning Architecture for Robotics //International Conference on Interactive Collaborative Robotics. – Cham : Springer Nature Switzerland, 2025. – С. 185-200."
+  bibtex: >
+    @inproceedings{konstantinov2025set,
+      title={Set-Input Trees: An Interpretable Multiple Instance Learning Architecture for Robotics},
+      author={Konstantinov, Andrei and Utkin, Lev},
+      booktitle={International Conference on Interactive Collaborative Robotics},
+      pages={185--200},
+      year={2025},
+      organization={Springer}
+    }
 - title: "Survival Analysis as Imprecise Classification with Trainable Kernels"
   slug: konstantinov2025survival
   year: 2025
@@ -34,6 +99,11 @@
       year={2025},
       publisher={Springer}
     }
+- title: "Глубокий лес для анализа выживаемости в рамках многовариантного обучения"
+  slug: konstantinov2025deepforest
+  year: 2025
+  kind: conference
+  gost: "Двадцать вторая Национальная конференция по искусственному интеллекту с международным участием, КИИ-2025"
 - title: "Survival concept-based learning models"
   slug: kirpichenko2025survival
   year: 2025
@@ -139,10 +209,22 @@
       publisher={Springer}
     }
 - title: "FI-CBL: A Probabilistic Method for Concept-Based Learning with Expert Rules"
-  year: 2024
-  kind: preprint
+  year: 2025
+  kind: journal
   arxiv: https://arxiv.org/abs/2406.19897
+  doi: https://doi.org/10.1007/s10598-025-09636-w
   repo: https://github.com/NTAILab/simple_concepts
+  gost: "Utkin L. V. et al. FI-CBL: a Probabilistic method for concept-based learning with expert rules //Computational Mathematics and Modeling. – 2025. – С. 1-17."
+  db: ['Scopus']
+  bibtex: >
+    @article{utkin2025fi,
+      title={FI-CBL: a Probabilistic method for concept-based learning with expert rules},
+      author={Utkin, Lev V and Konstantinov, Andrei V and Kaygermazov, Arslan A and Kirpichenko, Stanislav R and Verbova, Natalya M and Muliukha, Vladimir A},
+      journal={Computational Mathematics and Modeling},
+      pages={1--17},
+      year={2025},
+      publisher={Springer}
+    }
 - title: "Generating Survival Interpretable Trajectories and Data"
   year: 2024
   kind: preprint
