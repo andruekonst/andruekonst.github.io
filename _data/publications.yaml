@@ -1,3 +1,35 @@
+- title: "FoCAT: foundation model for estimating the conditional average treatment effect"
+  slug: kirpichenko2025focat
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.7868/S268695432507015X
+  gost: "Kirpichenko S. R., Konstantinov A. V., Utkin L. V. FoCAT: foundation model for estimating the conditional average treatment effect //Doklady Rossijskoj Akademii Nauk. Mathematika, Informatika, Processy Upravlenia. – 2025. – Т. 527. – С. 182-191."
+  bibtex: >
+    @article{kirpichenko2025focat,
+      title={FoCAT: foundation model for estimating the conditional average treatment effect},
+      author={Kirpichenko, Stanislav R and Konstantinov, Andrei Vladimirovich and Utkin, Lev Vladimirovich},
+      journal={Doklady Rossijskoj Akademii Nauk. Mathematika, Informatika, Processy Upravlenia},
+      volume={527},
+      pages={182--191},
+      year={2025},
+      publisher={Russian Academy of Sciences}
+    }
+- title: "Concept-Based Learning in Heterogeneous Treatment Effect"
+  slug: utkin2025concept
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.18721/JCSTCS.18401
+  gost: "Utkin L. V., Konstantinov A. V., Verbova N. M. Concept-Based Learning in Heterogeneous Treatment Effect //Computing, Telecommunication and Control. – 2025. – Т. 18. – №. 4. – С. 7-19."
+  bibtex: >
+    @article{utkin2025concept,
+      title={Concept-Based Learning in Heterogeneous Treatment Effect},
+      author={Utkin, LV and Konstantinov, AV and Verbova, NM},
+      journal={Computing, Telecommunication and Control},
+      volume={18},
+      number={4},
+      pages={7--19},
+      year={2025}
+    }
 - title: "Neural Network as a Loss Function for Constructing Decision Tree"
   slug: konstantinov2025neural
   year: 2025
@@ -120,6 +152,22 @@
       year={2025},
       publisher={Springer}
     }
+- title: "Improved anomaly detection by using the attention-based isolation forest with trainable scoring function"
+  slug: yu2025improved
+  year: 2025
+  kind: journal
+  doi: https://doi.org/10.18721/JCSTCS.18101
+  gost: "Ageev A. Yu., Utkin L. V., Konstantinov A. V. Improved anomaly detection by using the attention-based isolation forest with trainable scoring function //Информатика, телекоммуникации и управление. – 2025. – Т. 18. – №. 1. – С. 7-22."
+  bibtex: >
+    @article{yu2025improved,
+      title={Improved anomaly detection by using the attention-based isolation forest with trainable scoring function},
+      author={Ageev, Andrey Yu and Utkin, Lev V and Konstantinov, Andrei V},
+      journal={Информатика, телекоммуникации и управление},
+      volume={18},
+      number={1},
+      pages={7--22},
+      year={2025}
+    }
 - title: "Ada-naf: semi-supervised anomaly detection based on the neural attention forest"
   slug: ageev2025ada
   year: 2025
@@ -227,9 +275,22 @@
     }
 - title: "Generating Survival Interpretable Trajectories and Data"
   year: 2024
-  kind: preprint
+  kind: journal
+  doi: https://doi.org/10.1134/S1064562424601999
   arxiv: https://arxiv.org/abs/2402.12331
   repo: https://github.com/NTAILab/SurvTraj
+  db: ['Scopus']
+  gost: "Konstantinov A. V., Kirpichenko S. R., Utkin L. V. Generating survival interpretable trajectories and data //Doklady Mathematics. – Moscow : Pleiades Publishing, 2024. – Т. 110. – №. Suppl 1. – С. S75-S86."
+  bibtex: >
+    @inproceedings{konstantinov2024generating,
+      title={Generating survival interpretable trajectories and data},
+      booktitle={Doklady Mathematics},
+      volume={110},
+      number={Suppl 1},
+      pages={S75--S86},
+      year={2024},
+      organization={Springer}
+    }
 - title: "BENK: The Beran Estimator with Neural Kernels for Estimating the Heterogeneous Treatment Effect"
   slug: kirpichenko2024benk
   doi: https://doi.org/10.3390/a17010040
@@ -367,7 +428,7 @@
       pages={7--16},
       year={2023}
     }
-- title: "SurvBeNIM: The Beran-Based Neural Importance Model for Explaining the Survival Models"
+- title: "SurvBeNIM: The Beran-Based Neural Importance Model for Explaining Survival Models"
   slug: utkin2025survbenim
   year: 2025
   kind: journal
