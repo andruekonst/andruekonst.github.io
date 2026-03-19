@@ -2,17 +2,18 @@
   slug: kirpichenko2025focat
   year: 2025
   kind: journal
-  doi: https://doi.org/10.7868/S268695432507015X
-  gost: "Kirpichenko S. R., Konstantinov A. V., Utkin L. V. FoCAT: foundation model for estimating the conditional average treatment effect //Doklady Rossijskoj Akademii Nauk. Mathematika, Informatika, Processy Upravlenia. – 2025. – Т. 527. – С. 182-191."
+  doi: https://doi.org/10.1134/S1064562425700280
+  gost: "Kirpichenko S. R., Konstantinov A. V., Utkin L. V. FoCAT: foundation model for estimating the conditional average treatment effect //Doklady Mathematics. – Pleiades Publishing, 2025. – Т. 112. – №. 1. – С. 279-287."
   bibtex: >
     @article{kirpichenko2025focat,
       title={FoCAT: foundation model for estimating the conditional average treatment effect},
       author={Kirpichenko, Stanislav R and Konstantinov, Andrei Vladimirovich and Utkin, Lev Vladimirovich},
-      journal={Doklady Rossijskoj Akademii Nauk. Mathematika, Informatika, Processy Upravlenia},
-      volume={527},
-      pages={182--191},
+      journal={Doklady Mathematics},
+      volume={112},
+      number={1},
+      pages={279--287},
       year={2025},
-      publisher={Russian Academy of Sciences}
+      organization={Springer}
     }
 - title: "Concept-Based Learning in Heterogeneous Treatment Effect"
   slug: utkin2025concept
@@ -790,13 +791,13 @@
       year={2021},
       organization={Springer}
     }
-- title: "An Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data"
-  slug: Utkin2025
+- title: "Imprecise SHAP as a Tool for Explaining the Class Probability Distributions under Limited Training Data"
+  slug: utkin2025imprecise
   arxiv: https://arxiv.org/abs/2106.09111
   year: 2025
   kind: journal
   doi: https://doi.org/10.1007/978-3-031-80710-7_27
-  gost: "TODO"
+  gost: "Utkin L. et al. Imprecise shap as a tool for explaining the class probability distributions under limited training data //Digital Systems and Information Technologies in the Energy Sector. – Cham : Springer Nature Switzerland, 2025. – С. 369-389."
   db: ['Scopus']
   bibtex: >
     @Inbook{Utkin2025,
