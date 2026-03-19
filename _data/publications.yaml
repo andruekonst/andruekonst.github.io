@@ -1,7 +1,26 @@
+- title: "Regression Analysis Under Interval-Valued Targets as an Imprecise Classification Problem"
+  slug: utkin2026regression
+  year: 2026
+  kind: journal
+  db: ['Scopus', 'Q2']
+  doi: https://doi.org/10.3390/a19030166
+  gost: "Utkin L. et al. Regression Analysis Under Interval-Valued Targets as an Imprecise Classification Problem //Algorithms. – 2026. – Т. 19. – №. 3. – С. 166."
+  bibtex: >
+    @article{utkin2026regression,
+      title={Regression Analysis Under Interval-Valued Targets as an Imprecise Classification Problem},
+      author={Utkin, Lev and Kogan, Stanislav and Konstantinov, Andrei and Muliukha, Vladimir},
+      journal={Algorithms},
+      volume={19},
+      number={3},
+      pages={166},
+      year={2026},
+      publisher={MDPI}
+    }
 - title: "FoCAT: foundation model for estimating the conditional average treatment effect"
   slug: kirpichenko2025focat
   year: 2025
   kind: journal
+  db: ['Scopus', 'Q2', 'Web of Science Core Collection']
   doi: https://doi.org/10.1134/S1064562425700280
   gost: "Kirpichenko S. R., Konstantinov A. V., Utkin L. V. FoCAT: foundation model for estimating the conditional average treatment effect //Doklady Mathematics. – Pleiades Publishing, 2025. – Т. 112. – №. 1. – С. 279-287."
   bibtex: >
@@ -13,7 +32,7 @@
       number={1},
       pages={279--287},
       year={2025},
-      organization={Springer}
+      publisher={Pleiades Publishing}
     }
 - title: "Concept-Based Learning in Heterogeneous Treatment Effect"
   slug: utkin2025concept
