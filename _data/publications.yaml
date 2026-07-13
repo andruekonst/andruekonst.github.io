@@ -1,3 +1,65 @@
+- title: "TabSurv: Adapting Modern Tabular Neural Networks to Survival Analysis"
+  year: 2026
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2605.03944
+- title: "SDPM: Survival Diffusion Probabilistic Model for Continuous-Time Survival Analysis"
+  year: 2026
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2605.22776
+- title: "Attention-Based Estimation of the Individual Treatment Benefit Probability under Dose Variation"
+  year: 2026
+  kind: preprint
+  arxiv: https://arxiv.org/abs/2606.13821
+- title: "A novel gradient-based method for decision trees optimizing arbitrary differential loss functions"
+  slug: konstantinov2026novel
+  year: 2026
+  kind: journal
+  db: ['Q1', 'Scopus', 'Web of Science Core Collection']
+  doi: https://doi.org/10.3390/math14081379
+  repo: https://github.com/NTAILab/gradient_growing_trees
+  gost: "Konstantinov A., Utkin L., Muliukha V. A novel gradient-based method for decision trees optimizing arbitrary differential loss functions //Mathematics. – 2026. – Т. 14. – №. 8. – С. 1379."
+  bibtex: >
+    @article{konstantinov2026novel,
+      title={A novel gradient-based method for decision trees optimizing arbitrary differential loss functions},
+      author={Konstantinov, Andrei and Utkin, Lev and Muliukha, Vladimir},
+      journal={Mathematics},
+      volume={14},
+      number={8},
+      pages={1379},
+      year={2026},
+      publisher={MDPI}
+    }
+- title: "Interval-Valued attention-Based regression with truncated normal distributions over target intervals"
+  slug: kogan2026interval
+  year: 2026
+  kind: journal
+  db: ['Scopus']
+  doi: https://doi.org/10.1007/s10598-026-09710-x
+  gost: "Kogan S. K., Utkin L. V., Konstantinov A. V. Interval-Valued attention-Based regression with truncated normal distributions over target intervals //Computational Mathematics and Modeling. – 2026. – С. 1-20."
+  bibtex: >
+    @article{kogan2026interval,
+      title={Interval-Valued attention-Based regression with truncated normal distributions over target intervals},
+      author={Kogan, Stanislav K and Utkin, Lev V and Konstantinov, Andrei V},
+      journal={Computational Mathematics and Modeling},
+      pages={1--20},
+      year={2026},
+      publisher={Springer}
+    }
+- title: "Enhancing Boundary Stability in Decision Trees and Random Forests: A Weighted Sample Duplication Approach"
+  slug: konstantinov2026enhancing
+  year: 2026
+  kind: journal
+  doi: https://doi.org/10.18721/JCSTCS.19102
+  gost: "Konstantinov A. V., Elizarova A. P., Utkin L. V. Enhancing Boundary Stability in Decision Trees and Random Forests: A Weighted Sample Duplication Approach= Повышение устойчивости границ в деревьях решений и случайных лесах: подход с использованием взвешенного дублирования выборки //Информатика, телекоммуникации и управление= Computing, Telecommunications and Control. – 2026. – Т. 19. – №. 1."
+  bibtex: >
+    @article{konstantinov2026enhancing,
+      title={Enhancing Boundary Stability in Decision Trees and Random Forests: A Weighted Sample Duplication Approach= Повышение устойчивости границ в деревьях решений и случайных лесах: подход с использованием взвешенного дублирования выборки},
+      author={Konstantinov, AV and Elizarova, AP and Utkin, LV},
+      journal={Информатика, телекоммуникации и управление= Computing, Telecommunications and Control},
+      volume={19},
+      number={1},
+      year={2026}
+    }
 - title: "Regression Analysis Under Interval-Valued Targets as an Imprecise Classification Problem"
   slug: utkin2026regression
   year: 2026
@@ -15,24 +77,6 @@
       pages={166},
       year={2026},
       publisher={MDPI}
-    }
-- title: "FoCAT: foundation model for estimating the conditional average treatment effect"
-  slug: kirpichenko2025focat
-  year: 2025
-  kind: journal
-  db: ['Scopus', 'Q2', 'Web of Science Core Collection']
-  doi: https://doi.org/10.1134/S1064562425700280
-  gost: "Kirpichenko S. R., Konstantinov A. V., Utkin L. V. FoCAT: foundation model for estimating the conditional average treatment effect //Doklady Mathematics. – Pleiades Publishing, 2025. – Т. 112. – №. 1. – С. 279-287."
-  bibtex: >
-    @article{kirpichenko2025focat,
-      title={FoCAT: foundation model for estimating the conditional average treatment effect},
-      author={Kirpichenko, Stanislav R and Konstantinov, Andrei Vladimirovich and Utkin, Lev Vladimirovich},
-      journal={Doklady Mathematics},
-      volume={112},
-      number={1},
-      pages={279--287},
-      year={2025},
-      publisher={Pleiades Publishing}
     }
 - title: "Concept-Based Learning in Heterogeneous Treatment Effect"
   slug: utkin2025concept
@@ -103,6 +147,7 @@
   year: 2025
   kind: conference
   repo: https://github.com/NTAILab/xSIT/
+  image: /assets/images/selected-publications/SIT.jpg
   doi: https://doi.org/10.1007/978-3-032-11903-2_15
   db: ['Scopus']
   gost: "Konstantinov A., Utkin L. Set-Input Trees: An Interpretable Multiple Instance Learning Architecture for Robotics //International Conference on Interactive Collaborative Robotics. – Cham : Springer Nature Switzerland, 2025. – С. 185-200."
@@ -121,6 +166,7 @@
   kind: journal
   doi: https://doi.org/10.3390/math13183040
   repo: https://github.com/NTAILab/iSurvMQJ
+  image: /assets/images/selected-publications/iSurv.jpg
   arxiv: https://arxiv.org/abs/2506.10140
   db: ['Q1', 'Scopus', 'Web of Science Core Collection']
   gost: "Konstantinov A. et al. Survival Analysis as Imprecise Classification with Trainable Kernels //Mathematics. – 2025. – Т. 13. – №. 18. – С. 3040."
@@ -134,6 +180,26 @@
       pages={3040},
       year={2025},
       publisher={MDPI}
+    }
+- title: "FoCAT: foundation model for estimating the conditional average treatment effect"
+  slug: kirpichenko2025focat
+  year: 2025
+  kind: journal
+  db: ['Scopus', 'Q2', 'Web of Science Core Collection']
+  doi: https://doi.org/10.1134/S1064562425700280
+  repo: https://github.com/NTAILab/FoCAT
+  image: /assets/images/selected-publications/focat.jpg
+  gost: "Kirpichenko S. R., Konstantinov A. V., Utkin L. V. FoCAT: foundation model for estimating the conditional average treatment effect //Doklady Mathematics. – Pleiades Publishing, 2025. – Т. 112. – №. 1. – С. 279-287."
+  bibtex: >
+    @article{kirpichenko2025focat,
+      title={FoCAT: foundation model for estimating the conditional average treatment effect},
+      author={Kirpichenko, Stanislav R and Konstantinov, Andrei Vladimirovich and Utkin, Lev Vladimirovich},
+      journal={Doklady Mathematics},
+      volume={112},
+      number={1},
+      pages={279--287},
+      year={2025},
+      publisher={Pleiades Publishing}
     }
 - title: "Ensemble-Based Survival Models with the Self-Attended Beran Estimator Predictions"
   slug: utkin2025ensemble
@@ -977,10 +1043,6 @@
       year={2023},
       organization={MDPI}
     }
-- title: Interpretable Ensembles of Hyper-Rectangles as Base Models
-  year: 2023
-  kind: preprint
-  arxiv: https://arxiv.org/abs/2303.08625
 - title: Multiple Instance Learning with Trainable Decision Tree Ensembles
   year: 2023
   kind: preprint

@@ -2,6 +2,9 @@
 title: Sci. Publications
 layout: post
 selected:
+  - konstantinov2025survival
+  - konstantinov2025set
+  - kirpichenko2025focat
   - konstantinov2024explicit
   - konstantinov2024imposing
   - konstantinov2023naf
